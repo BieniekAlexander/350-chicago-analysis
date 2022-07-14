@@ -1,0 +1,3 @@
+fuzzywuzzy==0.18.0
+ipykernel
+python-Levenshtein==0.12.2
