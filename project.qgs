@@ -19,7 +19,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties></customproperties>
-    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" name="coal_plants" providerKey="delimitedtext" source="./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=yCoordinate&amp;yField=xCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" name="coal_plants" providerKey="delimitedtext" source="./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=yCoordinate&amp;yField=xCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
       <customproperties></customproperties>
     </layer-tree-layer>
     <layer-tree-layer checked="Qt::Checked" expanded="1" id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" name="all_coal_mines_pt" providerKey="ogr" source="/vsizip/./data/energy/illinois/all-coal-mines.zip/all_coal_mines_pt.shp">
@@ -75,10 +75,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-92.57318929180966904</xmin>
-      <ymin>38.80019834328881245</ymin>
-      <xmax>-86.53494071388006148</xmax>
-      <ymax>42.21753821814662899</ymax>
+      <xmin>-93.39400100967090168</xmin>
+      <ymin>39.11917715443785681</ymin>
+      <xmax>-87.35575243174129412</xmax>
+      <ymax>42.53651702929567335</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -99,9 +99,9 @@
   </mapcanvas>
   <projectModels></projectModels>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="coal_plants" open="true" showFeatureCount="0">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="coal_plants" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" visible="0"></legendlayerfile>
+        <legendlayerfile isInOverview="0" layerid="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" visible="1"></legendlayerfile>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Checked" drawingOrder="-1" name="all_coal_mines_pt" open="true" showFeatureCount="0">
