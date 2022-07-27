@@ -19,10 +19,10 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties></customproperties>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" name="coal_plants" providerKey="delimitedtext" source="./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=yCoordinate&amp;yField=xCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab" name="coal_plants" providerKey="delimitedtext" source="./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=xCoordinate&amp;yField=yCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
       <customproperties></customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" name="all_coal_mines_pt" providerKey="ogr" source="/vsizip/./data/energy/illinois/all-coal-mines.zip/all_coal_mines_pt.shp">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" name="all_coal_mines_pt" providerKey="ogr" source="/vsizip/./data/energy/illinois/all-coal-mines.zip/all_coal_mines_pt.shp">
       <customproperties></customproperties>
     </layer-tree-layer>
     <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="coalstrat_minor_96c6adc6_0575_46a5_9b03_e2dea9edab0c" name="coalstrat_minor" providerKey="delimitedtext" source="./data/energy/illinois/coalstrat_minor.csv?type=csv&amp;detectTypes=yes&amp;xField=LONGITUDE&amp;yField=LATITUDE&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no">
@@ -54,20 +54,20 @@
       <item>OSM_Standard_e431028a_7dfd_49e7_bc45_d109be724a21</item>
       <item>districts_8c7e997f_c607_4341_af50_6e415c213544</item>
       <item>districts_50cd3376_7fbc_4224_991a_607d242a46ab</item>
-      <item>coal_plants_bf59a165_a857_43c2_8976_0c867f004373</item>
       <item>coalstrat_major_03d131a9_c429_4da7_82b7_b3b21aed4ccc</item>
       <item>coalstrat_minor_96c6adc6_0575_46a5_9b03_e2dea9edab0c</item>
       <item>all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab</item>
+      <item>coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings enabled="0" intersection-snapping="0" mode="2" tolerance="12" type="1" unit="1">
     <individual-layer-settings>
-      <layer-setting enabled="0" id="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" tolerance="12" type="1" units="1"></layer-setting>
       <layer-setting enabled="0" id="districts_8c7e997f_c607_4341_af50_6e415c213544" tolerance="12" type="1" units="1"></layer-setting>
       <layer-setting enabled="0" id="coalstrat_minor_96c6adc6_0575_46a5_9b03_e2dea9edab0c" tolerance="12" type="1" units="1"></layer-setting>
-      <layer-setting enabled="0" id="districts_eda0e649_444e_416c_8ed1_324178c3f400" tolerance="12" type="1" units="1"></layer-setting>
-      <layer-setting enabled="0" id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" tolerance="12" type="1" units="1"></layer-setting>
       <layer-setting enabled="0" id="districts_50cd3376_7fbc_4224_991a_607d242a46ab" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="districts_eda0e649_444e_416c_8ed1_324178c3f400" tolerance="12" type="1" units="1"></layer-setting>
       <layer-setting enabled="0" id="coalstrat_major_03d131a9_c429_4da7_82b7_b3b21aed4ccc" tolerance="12" type="1" units="1"></layer-setting>
     </individual-layer-settings>
   </snapping-settings>
@@ -75,10 +75,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-93.39400100967090168</xmin>
-      <ymin>39.11917715443785681</ymin>
-      <xmax>-87.35575243174129412</xmax>
-      <ymax>42.53651702929567335</ymax>
+      <xmin>-94.98584749715682563</xmin>
+      <ymin>36.21687631540809349</ymin>
+      <xmax>-82.9093503412976105</xmax>
+      <ymax>43.05155606512372657</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -101,12 +101,12 @@
   <legend updateDrawingOrder="true">
     <legendlayer checked="Qt::Checked" drawingOrder="-1" name="coal_plants" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="coal_plants_bf59a165_a857_43c2_8976_0c867f004373" visible="1"></legendlayerfile>
+        <legendlayerfile isInOverview="0" layerid="coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab" visible="1"></legendlayerfile>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="all_coal_mines_pt" open="true" showFeatureCount="0">
+    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="all_coal_mines_pt" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" visible="1"></legendlayerfile>
+        <legendlayerfile isInOverview="0" layerid="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab" visible="0"></legendlayerfile>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="coalstrat_minor" open="true" showFeatureCount="0">
@@ -275,7 +275,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -359,7 +359,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -632,7 +632,7 @@
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -655,7 +655,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -780,7 +780,7 @@
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -803,7 +803,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -918,8 +918,8 @@
         <xmax>-87.81399999999999295</xmax>
         <ymax>42.3819999999999979</ymax>
       </extent>
-      <id>coal_plants_bf59a165_a857_43c2_8976_0c867f004373</id>
-      <datasource>file:./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=yCoordinate&amp;yField=xCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <id>coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab</id>
+      <datasource>file:./data/energy/illinois/coal_plants.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;xField=xCoordinate&amp;yField=yCoordinate&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -966,7 +966,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -1012,7 +1012,7 @@
               <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
               <prop k="outline_width_unit" v="MM"></prop>
               <prop k="scale_method" v="area"></prop>
-              <prop k="size" v="3.66667"></prop>
+              <prop k="size" v="5.5"></prop>
               <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
               <prop k="size_unit" v="MM"></prop>
               <prop k="vertical_anchor_point" v="1"></prop>
@@ -1061,7 +1061,7 @@
               <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
               <prop k="outline_width_unit" v="MM"></prop>
               <prop k="scale_method" v="area"></prop>
-              <prop k="size" v="4"></prop>
+              <prop k="size" v="6"></prop>
               <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
               <prop k="size_unit" v="MM"></prop>
               <prop k="vertical_anchor_point" v="1"></prop>
@@ -1097,7 +1097,6 @@
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
         <DiagramCategory backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" opacity="1" penAlpha="255" penColor="#000000" penWidth="0" rotationOffset="270" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15">
           <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""></fontProperties>
-          <attribute color="#000000" field="" label=""></attribute>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" placement="0" priority="0" showAll="1" zIndex="0">
@@ -1128,7 +1127,7 @@
             </config>
           </editWidget>
         </field>
-        <field name="xCoordinate">
+        <field name="coordinates">
           <editWidget type="TextEdit">
             <config>
               <Option></Option>
@@ -1136,6 +1135,13 @@
           </editWidget>
         </field>
         <field name="yCoordinate">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="xCoordinate">
           <editWidget type="TextEdit">
             <config>
               <Option></Option>
@@ -1195,23 +1201,25 @@
       <aliases>
         <alias field="name" index="0" name=""></alias>
         <alias field="location" index="1" name=""></alias>
-        <alias field="xCoordinate" index="2" name=""></alias>
+        <alias field="coordinates" index="2" name=""></alias>
         <alias field="yCoordinate" index="3" name=""></alias>
-        <alias field="nameplateCapacity" index="4" name=""></alias>
-        <alias field="generatingUnits" index="5" name=""></alias>
-        <alias field="2016NetGeneration" index="6" name=""></alias>
-        <alias field="2016GHGEmissions" index="7" name=""></alias>
-        <alias field="owner" index="8" name=""></alias>
-        <alias field="opened" index="9" name=""></alias>
-        <alias field="status" index="10" name=""></alias>
+        <alias field="xCoordinate" index="4" name=""></alias>
+        <alias field="nameplateCapacity" index="5" name=""></alias>
+        <alias field="generatingUnits" index="6" name=""></alias>
+        <alias field="2016NetGeneration" index="7" name=""></alias>
+        <alias field="2016GHGEmissions" index="8" name=""></alias>
+        <alias field="owner" index="9" name=""></alias>
+        <alias field="opened" index="10" name=""></alias>
+        <alias field="status" index="11" name=""></alias>
       </aliases>
       <excludeAttributesWMS></excludeAttributesWMS>
       <excludeAttributesWFS></excludeAttributesWFS>
       <defaults>
         <default applyOnUpdate="0" expression="" field="name"></default>
         <default applyOnUpdate="0" expression="" field="location"></default>
-        <default applyOnUpdate="0" expression="" field="xCoordinate"></default>
+        <default applyOnUpdate="0" expression="" field="coordinates"></default>
         <default applyOnUpdate="0" expression="" field="yCoordinate"></default>
+        <default applyOnUpdate="0" expression="" field="xCoordinate"></default>
         <default applyOnUpdate="0" expression="" field="nameplateCapacity"></default>
         <default applyOnUpdate="0" expression="" field="generatingUnits"></default>
         <default applyOnUpdate="0" expression="" field="2016NetGeneration"></default>
@@ -1223,8 +1231,9 @@
       <constraints>
         <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"></constraint>
         <constraint constraints="0" exp_strength="0" field="location" notnull_strength="0" unique_strength="0"></constraint>
-        <constraint constraints="0" exp_strength="0" field="xCoordinate" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="coordinates" notnull_strength="0" unique_strength="0"></constraint>
         <constraint constraints="0" exp_strength="0" field="yCoordinate" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="xCoordinate" notnull_strength="0" unique_strength="0"></constraint>
         <constraint constraints="0" exp_strength="0" field="nameplateCapacity" notnull_strength="0" unique_strength="0"></constraint>
         <constraint constraints="0" exp_strength="0" field="generatingUnits" notnull_strength="0" unique_strength="0"></constraint>
         <constraint constraints="0" exp_strength="0" field="2016NetGeneration" notnull_strength="0" unique_strength="0"></constraint>
@@ -1236,8 +1245,9 @@
       <constraintExpressions>
         <constraint desc="" exp="" field="name"></constraint>
         <constraint desc="" exp="" field="location"></constraint>
-        <constraint desc="" exp="" field="xCoordinate"></constraint>
+        <constraint desc="" exp="" field="coordinates"></constraint>
         <constraint desc="" exp="" field="yCoordinate"></constraint>
+        <constraint desc="" exp="" field="xCoordinate"></constraint>
         <constraint desc="" exp="" field="nameplateCapacity"></constraint>
         <constraint desc="" exp="" field="generatingUnits"></constraint>
         <constraint desc="" exp="" field="2016NetGeneration"></constraint>
@@ -1250,19 +1260,20 @@
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;owner&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
         <columns>
-          <column hidden="0" name="name" type="field" width="177"></column>
-          <column hidden="0" name="location" type="field" width="156"></column>
-          <column hidden="0" name="owner" type="field" width="-1"></column>
-          <column hidden="0" name="opened" type="field" width="152"></column>
-          <column hidden="0" name="status" type="field" width="246"></column>
-          <column hidden="0" name="xCoordinate" type="field" width="-1"></column>
+          <column hidden="0" name="name" type="field" width="-1"></column>
+          <column hidden="0" name="location" type="field" width="-1"></column>
+          <column hidden="0" name="coordinates" type="field" width="-1"></column>
           <column hidden="0" name="yCoordinate" type="field" width="-1"></column>
+          <column hidden="0" name="xCoordinate" type="field" width="-1"></column>
           <column hidden="0" name="nameplateCapacity" type="field" width="-1"></column>
           <column hidden="0" name="generatingUnits" type="field" width="-1"></column>
           <column hidden="0" name="2016NetGeneration" type="field" width="-1"></column>
           <column hidden="0" name="2016GHGEmissions" type="field" width="-1"></column>
+          <column hidden="0" name="owner" type="field" width="-1"></column>
+          <column hidden="0" name="opened" type="field" width="-1"></column>
+          <column hidden="0" name="status" type="field" width="-1"></column>
           <column hidden="1" type="actions" width="-1"></column>
         </columns>
       </attributetableconfig>
@@ -1297,6 +1308,7 @@ def my_form_open(dialog, layer, feature):
       <editable>
         <field editable="1" name="2016GHGEmissions"></field>
         <field editable="1" name="2016NetGeneration"></field>
+        <field editable="1" name="coordinates"></field>
         <field editable="1" name="generatingUnits"></field>
         <field editable="1" name="location"></field>
         <field editable="1" name="name"></field>
@@ -1310,6 +1322,7 @@ def my_form_open(dialog, layer, feature):
       <labelOnTop>
         <field labelOnTop="0" name="2016GHGEmissions"></field>
         <field labelOnTop="0" name="2016NetGeneration"></field>
+        <field labelOnTop="0" name="coordinates"></field>
         <field labelOnTop="0" name="generatingUnits"></field>
         <field labelOnTop="0" name="location"></field>
         <field labelOnTop="0" name="name"></field>
@@ -1370,7 +1383,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -1661,7 +1674,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -2018,7 +2031,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -2631,7 +2644,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -3248,7 +3261,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent></extent>
@@ -3812,10 +3825,10 @@ def my_form_open(dialog, layer, feature):
     <layer id="OSM_Standard_e431028a_7dfd_49e7_bc45_d109be724a21"></layer>
     <layer id="districts_8c7e997f_c607_4341_af50_6e415c213544"></layer>
     <layer id="districts_50cd3376_7fbc_4224_991a_607d242a46ab"></layer>
-    <layer id="coal_plants_bf59a165_a857_43c2_8976_0c867f004373"></layer>
     <layer id="coalstrat_major_03d131a9_c429_4da7_82b7_b3b21aed4ccc"></layer>
     <layer id="coalstrat_minor_96c6adc6_0575_46a5_9b03_e2dea9edab0c"></layer>
     <layer id="all_coal_mines_pt_4d5b6f25_d87b_4e64_bba9_d7c29b0636ab"></layer>
+    <layer id="coal_plants_3b63b566_a048_44b5_a695_a299e4e8eeab"></layer>
   </layerorder>
   <properties>
     <Gui>
