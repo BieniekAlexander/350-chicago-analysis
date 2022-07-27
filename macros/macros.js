@@ -58,14 +58,16 @@ function castDMS(input) {
  * Cast selected text coordinates to decimal
  */
 function castCoordinatesToDecimal() {
-   const editor = vscode.window.activeTextEditor;
+   var editor = vscode.window.activeTextEditor;
    if (!editor) {
       // Return an error message if necessary.
       return 'Editor is not opening.';
    }
-   const document = editor.document;
-   const selection = editor.selection;
-   const text = document.getText(selection);
+   var document = editor.document;
+   var selection = editor.selection;
+   var text = document.getText(selection);
+   vscode.window.showInformationMessage("Trying to cast: " + text);
+
    if (text.length > 0) {
       editor.edit(editBuilder => {
          // To surround a selected text in double quotes(Multi selection is not supported).
