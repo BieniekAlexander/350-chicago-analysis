@@ -1,14 +1,26 @@
 # Introduction
-A repository for me to organize my work in creating visualizations for 350 Chicago.
+A repository for me to organize my work in making analyses for 350 Chicago.
+
 
 # Initial Setup
-## python environment
+## Coding Environment
+I'm using Visual Studio code as an IDE for this project. It's probably not necessary that you use this IDE to work in this repository, but I'll be customizing some things about the project, i.e. making macros, which will be made to work in VSCode. If you'd like to set up VSCode:
+- [Install VSCode](https://code.visualstudio.com/)
+- TODO...
+
+## Python Environment
 ```
 CONDA_ENV=350-chicago-vis
 conda create --name $CONDA_ENV python=3.7 -y
 conda activate $CONDA_ENV
 pip install -r requirements.txt
 ```
+
+## GIS Visualizations
+I'm doing all GIS visualizations in this project using QGIS. To set up GIS and get caught up with the work here:
+- [install QGIS](https://www.qgis.org/en/site/)
+- TODO [plugin for tracking work in GIS?](https://www.opengis.ch/2019/04/09/plugin-for-tracking-qgis-project-files-in-git/), [2](https://github.com/opengisch/qgis_trackable_project_files)
+- [Getting QGIS to work with wsl2](https://github.com/lucernae/wsl2-qgis)
 
 
 # Resources
@@ -23,9 +35,11 @@ pip install -r requirements.txt
 	- [CEJA House Sponsorship](https://ilga.gov/legislation/billstatus.asp?DocNum=804&GAID=16&GA=102&DocTypeID=HB&LegID=129364&SessionID=110)
 	- [Senate Members](https://www.ilga.gov/senate/default.asp)
 	- [House Members](https://www.ilga.gov/house/default.asp)
+	- [Illinois Counties and Townships](https://isgs.illinois.edu/research/coal/shapefiles)
 - Energy Sector Data
 	- [Illinois Power Stations](https://en.wikipedia.org/wiki/List_of_power_stations_in_Illinois)
-	- [Illinois Coal Mines](https://isgs.illinois.edu/illinois-coal-mines-ilmines)
+	- [Illinois Coal Mines and Related Data](https://isgs.illinois.edu/research/coal/shapefiles)
+
 ## Data Tools
 - [Wikipedia Table Extractor](https://wikitable2csv.ggor.de/)
 
