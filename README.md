@@ -18,9 +18,10 @@ pip install -r requirements.txt
 
 ## GIS Visualizations
 I'm doing all GIS visualizations in this project using QGIS. To set up GIS and get caught up with the work here:
-- [install QGIS](https://www.qgis.org/en/site/)
-- TODO [plugin for tracking work in GIS?](https://www.opengis.ch/2019/04/09/plugin-for-tracking-qgis-project-files-in-git/), [2](https://github.com/opengisch/qgis_trackable_project_files)
-- [Getting QGIS to work with wsl2](https://github.com/lucernae/wsl2-qgis)
+- [Install QGIS](https://www.qgis.org/en/site/)
+- [If using WSL2, set it up for use with QGIS](https://github.com/lucernae/wsl2-qgis)
+- In QGIS, Install the [Trackable QGIS Project](https://www.opengis.ch/2019/04/09/plugin-for-tracking-qgis-project-files-in-git/) Plugin
+	- I'll only merge branches into main if their project files abide by management from such a plugin
 
 
 # Resources
