@@ -1,60 +1,60 @@
-name_raw	vote	name
-Sen. Anderson, Neil [R]	Yea	Neil Anderson
-Sen. Aquino, Omar [D]	Yea	Omar Aquino
-Sen. Bailey, Darren [R]	Yea	Darren Bailey
-Sen. Barickman, Jason [R]	NV	Jason A. Barickman
-Sen. Belt, Christopher [D]	Yea	Christopher Belt
-Sen. Bennett, Scott M. [D]	Yea	Scott M. Bennett
-Sen. Bryant, Terri [R]	Yea	Terri Bryant
-"Sen. Bush, Melinda ""Willen"" [D]"	Yea	Melinda Bush
-Sen. Castro, Cristina [D]	Yea	Cristina Castro
-"Sen. Collins, Jacqueline ""Jacqui"" Y. [D]"	Yea	Jacqueline Y. Collins
-Sen. Connor, John [D]	Yea	Eric Mattson
-Sen. Crowe, Rachelle Aud [D]	Yea	Kris Tharp
-Sen. Cullerton, Thomas E. [D]	Yea	Diane Pappas
-"Sen. Cunningham, William ""Bill"" [D]"	Yea	Bill Cunningham
-Sen. Curran, John F. [R]	Yea	John F. Curran
-"Sen. DeWitte, Donald ""Don"" P. [R]"	Yea	Donald P. DeWitte
-Sen. Ellman, Laura [D]	Yea	Laura Ellman
-Sen. Feigenholtz, Sara [D]	Yea	Sara Feigenholtz
-Sen. Fine, Laura [D]	Yea	Laura Fine
-Sen. Fowler, Dale [R]	Yea	Dale Fowler
-Sen. Gillespie, Ann [D]	Yea	Ann Gillespie
-"Sen. Glowiak, Suzanne ""Suzy"" [D]"	Yea	Suzy Glowiak Hilton
-Sen. Harmon, Don [D]	Yea	Don Harmon
-Sen. Harris III, Napoleon [D]	Yea	Napoleon Harris, III
-Sen. Hastings, Michael E. [D]	Yea	Michael E. Hastings
-Sen. Holmes, Linda [D]	Yea	Linda Holmes
-Sen. Hunter, Mattie [D]	Yea	Mattie Hunter
-Sen. Johnson, Adriane [D]	Yea	Adriane Johnson
-Sen. Jones III, Emil [D]	Yea	Emil Jones, III
-Sen. Joyce, Patrick J. [D]	Yea	Patrick J. Joyce
-Sen. Koehler, David [D]	Yea	David Koehler
-Sen. Landek, Steven M. [D]	Yea	Steven M. Landek
-Sen. Lightford, Kimberly A. [D]	Yea	Kimberly A. Lightford
-Sen. Loughran Cappel, Meg [D]	Yea	Meg Loughran Cappel
-Sen. Martwick Jr., Robert F. [D]	Yea	Robert F. Martwick
-Sen. McClure, Steve [R]	Yea	Steve McClure
-Sen. McConchie, Dan [R]	Yea	Dan McConchie
-Sen. Morrison, Julie A. [D]	Yea	Julie A. Morrison
-"Sen. Munoz, Antonio ""Tony"" [D]"	Yea	Antonio Muñoz
-Sen. Murphy, Laura M. [D]	Yea	Laura M. Murphy
-Sen. Pacione-Zayas, Cristina H. [D]	Yea	Cristina H. Pacione-Zayas
-Sen. Peters, Robert [D]	Yea	Robert Peters
-Sen. Plummer, Jason [R]	Yea	Jason Plummer
-"Sen. Rezin, Susan ""Sue"" [R]"	Yea	Sue Rezin
-Sen. Rose, Chapin [R]	Yea	Chapin Rose
-Sen. Simmons, Mike [D]	Yea	Mike Simmons
-Sen. Sims Jr., Elgie R. [D]	Yea	Elgie R. Sims, Jr.
-Sen. Stadelman, Steve [D]	Yea	Steve Stadelman
-Sen. Stewart, Brian W. [R]	Yea	Brian W. Stewart
-Sen. Stoller, Win [R]	Yea	Win Stoller
-Sen. Syverson, Dave [R]	Yea	Dave Syverson
-Sen. Tracy, Jil Walker [R]	Yea	Jil Tracy
-Sen. Turner, Doris [D]	Yea	Doris Turner
-Sen. Turner, Sally J. [R]	Yea	Sally J. Turner
-Sen. Vanpelt-Watkins, Patricia [D]	Yea	Patricia Van Pelt
-Sen. Villa, Karina [D]	Yea	Karina Villa
-Sen. Villanueva, Celina [D]	Yea	Celina Villanueva
-Sen. Villivalam, Ram [D]	Yea	Ram Villivalam
-Sen. Wilcox, Craig [R]	Yea	Craig Wilcox
+name_raw	vote	name	district
+Sen. Anderson, Neil [R]	Yea	Neil Anderson	36
+Sen. Aquino, Omar [D]	Yea	Omar Aquino	2
+Sen. Bailey, Darren [R]	Yea	Darren Bailey	55
+Sen. Barickman, Jason [R]	NV	Jason A. Barickman	53
+Sen. Belt, Christopher [D]	Yea	Christopher Belt	57
+Sen. Bennett, Scott M. [D]	Yea	Scott M. Bennett	52
+Sen. Bryant, Terri [R]	Yea	Terri Bryant	58
+"Sen. Bush, Melinda ""Willen"" [D]"	Yea	Melinda Bush	31
+Sen. Castro, Cristina [D]	Yea	Cristina Castro	22
+"Sen. Collins, Jacqueline ""Jacqui"" Y. [D]"	Yea	Jacqueline Y. Collins	16
+Sen. Connor, John [D]	Yea	Eric Mattson	43
+Sen. Crowe, Rachelle Aud [D]	Yea	Kris Tharp	56
+Sen. Cullerton, Thomas E. [D]	Yea	Diane Pappas	23
+"Sen. Cunningham, William ""Bill"" [D]"	Yea	Bill Cunningham	18
+Sen. Curran, John F. [R]	Yea	John F. Curran	41
+"Sen. DeWitte, Donald ""Don"" P. [R]"	Yea	Donald P. DeWitte	33
+Sen. Ellman, Laura [D]	Yea	Laura Ellman	21
+Sen. Feigenholtz, Sara [D]	Yea	Sara Feigenholtz	6
+Sen. Fine, Laura [D]	Yea	Laura Fine	9
+Sen. Fowler, Dale [R]	Yea	Dale Fowler	59
+Sen. Gillespie, Ann [D]	Yea	Ann Gillespie	27
+"Sen. Glowiak, Suzanne ""Suzy"" [D]"	Yea	Suzy Glowiak Hilton	24
+Sen. Harmon, Don [D]	Yea	Don Harmon	39
+Sen. Harris III, Napoleon [D]	Yea	Napoleon Harris, III	15
+Sen. Hastings, Michael E. [D]	Yea	Michael E. Hastings	19
+Sen. Holmes, Linda [D]	Yea	Linda Holmes	42
+Sen. Hunter, Mattie [D]	Yea	Mattie Hunter	3
+Sen. Johnson, Adriane [D]	Yea	Adriane Johnson	30
+Sen. Jones III, Emil [D]	Yea	Emil Jones, III	14
+Sen. Joyce, Patrick J. [D]	Yea	Patrick J. Joyce	40
+Sen. Koehler, David [D]	Yea	David Koehler	46
+Sen. Landek, Steven M. [D]	Yea	Steven M. Landek	12
+Sen. Lightford, Kimberly A. [D]	Yea	Kimberly A. Lightford	4
+Sen. Loughran Cappel, Meg [D]	Yea	Meg Loughran Cappel	49
+Sen. Martwick Jr., Robert F. [D]	Yea	Robert F. Martwick	10
+Sen. McClure, Steve [R]	Yea	Steve McClure	50
+Sen. McConchie, Dan [R]	Yea	Dan McConchie	26
+Sen. Morrison, Julie A. [D]	Yea	Julie A. Morrison	29
+"Sen. Munoz, Antonio ""Tony"" [D]"	Yea	Antonio Muñoz	1
+Sen. Murphy, Laura M. [D]	Yea	Laura M. Murphy	28
+Sen. Pacione-Zayas, Cristina H. [D]	Yea	Cristina H. Pacione-Zayas	20
+Sen. Peters, Robert [D]	Yea	Robert Peters	13
+Sen. Plummer, Jason [R]	Yea	Jason Plummer	54
+"Sen. Rezin, Susan ""Sue"" [R]"	Yea	Sue Rezin	38
+Sen. Rose, Chapin [R]	Yea	Chapin Rose	51
+Sen. Simmons, Mike [D]	Yea	Mike Simmons	7
+Sen. Sims Jr., Elgie R. [D]	Yea	Elgie R. Sims, Jr.	17
+Sen. Stadelman, Steve [D]	Yea	Steve Stadelman	34
+Sen. Stewart, Brian W. [R]	Yea	Brian W. Stewart	45
+Sen. Stoller, Win [R]	Yea	Win Stoller	37
+Sen. Syverson, Dave [R]	Yea	Dave Syverson	35
+Sen. Tracy, Jil Walker [R]	Yea	Jil Tracy	47
+Sen. Turner, Doris [D]	Yea	Doris Turner	48
+Sen. Turner, Sally J. [R]	Yea	Sally J. Turner	44
+Sen. Vanpelt-Watkins, Patricia [D]	Yea	Patricia Van Pelt	5
+Sen. Villa, Karina [D]	Yea	Karina Villa	25
+Sen. Villanueva, Celina [D]	Yea	Celina Villanueva	11
+Sen. Villivalam, Ram [D]	Yea	Ram Villivalam	8
+Sen. Wilcox, Craig [R]	Yea	Craig Wilcox	32
