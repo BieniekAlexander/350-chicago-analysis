@@ -1,12 +1,12 @@
-name	location	xCoordinate	yCoordinate	nameplateCapacity	generatingUnits	2016NetGeneration	2016GHGEmissions	owner	opened	status
-Baldwin Generating Center	Baldwin	38.20400	-89.855	1,806	1	9,779,274	9,784,003	Vistra		Retiring by end of 2025
-E.D. Edwards Power Plant	Bartonville	40.5957	-89.6628	749	1	2,805,607	2,698,889	Vistra		Retiring by end of 2022
-Joppa Steam Plant	Joppa	37.209	-88.858	1,014 coal/91.8 natural gas	8			Vistra		Retiring by end of 2022
-Kincaid Generation	Christian County, Illinois	39.590666666666664	-89.49633333333334	1,108	2	4,280,475	4,583,762	Vistra	1996	Retiring by end of 2027
-City Water, Light & Power	Springfield	39.7551239	-89.6019277	724	4			City Water, Light & Power	1968, 1972, 1978, 2009	Retiring two oldest units by end of 2020 and the third-oldest by early 2023.
-Newton Power Plant	Jasper County	38.937	-88.276	1,151	1	3,320,361	3,446,397	Vistra		Retiring by end of 2027
-Powerton Station	Pekin	40.541	-89.680	1,538	1	4,541,832	5,289,941	NRG Energy	1972, 1975	Retiring by end of 2028
-Prairie State Energy Campus	Marissa	38.27777777777778	-89.66777777777779	1,600	2	10,587,579	10,488,120	Prairie State Energy Campus	2012	
-SIPC – Lake of Egypt	Marion	37.625	-88.937	272	2			Southern Illinois Power Cooperative	1963, 1978	Larger of 2 units closing fall of 2020
-Waukegan Station	Waukegan	42.382	-87.814	689 (coal/petroleum)	2	1,750,590	1,824,644	NRG Energy	1958	Will close in June of 2022
-Will County Station	Romeoville	41.633	-88.062	510	3	2,105,377	2,215,838	NRG Energy	1963	Will close in June of 2022
+name	location	coordinates	yCoordinate	xCoordinate	nameplateCapacity	generatingUnits	2016NetGeneration	2016GHGEmissions	owner	opened	status
+Baldwin Generating Center	Baldwin	38.204°N 89.855°W	38.20400	-89.855	1,806	1	9,779,274	9,784,003	Vistra		Retiring by end of 2025
+E.D. Edwards Power Plant	Bartonville	40.5957°N 89.6628°W	40.5957	-89.6628	749	1	2,805,607	2,698,889	Vistra		Retiring by end of 2022
+Joppa Steam Plant	Joppa	37.209°N 88.858°W	37.209	-88.858	1,014 coal/91.8 natural gas	8			Vistra		Retiring by end of 2022
+Kincaid Generation	Christian County, Illinois	39°35.44′N 89°29.78′W	39.590666666666664	-89.49633333333334	1,108	2	4,280,475	4,583,762	Vistra	1996	Retiring by end of 2027
+City Water, Light & Power	Springfield	39.7551239°N 89.6019277°W	39.7551239	-89.6019277	724	4			City Water, Light & Power	1968, 1972, 1978, 2009	Retiring two oldest units by end of 2020 and the third-oldest by early 2023.
+Newton Power Plant	Jasper County	38.937°N 88.276°W	38.937	-88.276	1,151	1	3,320,361	3,446,397	Vistra		Retiring by end of 2027
+Powerton Station	Pekin	40.541°N 89.680°W	40.541	-89.680	1,538	1	4,541,832	5,289,941	NRG Energy	1972, 1975	Retiring by end of 2028
+Prairie State Energy Campus	Marissa	38°16′40″N 89°40′4″W	38.27777777777778	-89.66777777777779	1,600	2	10,587,579	10,488,120	Prairie State Energy Campus	2012	
+SIPC – Lake of Egypt	Marion	37.625°N 88.937°W	37.625	-88.937	272	2			Southern Illinois Power Cooperative	1963, 1978	Larger of 2 units closing fall of 2020
+Waukegan Station	Waukegan	42.382°N 87.814°W	42.382	-87.814	689 (coal/petroleum)	2	1,750,590	1,824,644	NRG Energy	1958	Will close in June of 2022
+Will County Station	Romeoville	41.633°N 88.062°W	41.633	-88.062	510	3	2,105,377	2,215,838	NRG Energy	1963	Will close in June of 2022

@@ -37,6 +37,13 @@ I'm doing all GIS visualizations in this project using QGIS. To set up GIS and g
 	- [Senate Members](https://www.ilga.gov/senate/default.asp)
 	- [House Members](https://www.ilga.gov/house/default.asp)
 	- [Illinois Counties and Townships](https://isgs.illinois.edu/research/coal/shapefiles)
+	- CEJA Records:
+		- [SB2408 Vote in House](https://legiscan.com/IL/rollcall/SB2408/id/1108219)
+		- [SB2408 Vote in Senate](https://legiscan.com/IL/rollcall/SB2408/id/1062042)
+		- [CEJA Senate Sponsorship](https://www.ilga.gov/legislation/BillStatus.asp?DocNum=1718&GAID=16&DocTypeID=SB&SessionID=110&GA=102)
+		- [CEJA House Sponsorship](https://ilga.gov/legislation/billstatus.asp?DocNum=804&GAID=16&GA=102&DocTypeID=HB&LegID=129364&SessionID=110)
+	- IEC Environmental Scorecard:
+		- [IEC 2022 Environmental Scorecard Report](https://ilenviro.org/2022-environmental-scorecard/)
 - Energy Sector Data
 	- [Illinois Power Stations](https://en.wikipedia.org/wiki/List_of_power_stations_in_Illinois)
 	- [Illinois Coal Mines and Related Data](https://isgs.illinois.edu/research/coal/shapefiles)

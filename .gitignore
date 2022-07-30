@@ -1,3 +1,6 @@
-# ignoring temp files
+# temp files
 *.swp
 *~
+
+# jupyter things
+.ipynb_checkpoints
