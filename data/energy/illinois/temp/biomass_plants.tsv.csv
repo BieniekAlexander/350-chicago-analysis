@@ -1,0 +1,7 @@
+,plant,location,coordinates,nameplateCapacity,generatingUnits,2016NetGeneration,fuelType,operator,opened,yCoordinate,xCoordinate
+0,"Countryside Genco",Grayslake,"42.3211 -88.0319",12.8,4,,"landfill gas",,2012,42.3211,-88.0319
+1,"Greene Valley Gas Recovery",Bolingbrook,"41.7338°N 88.0849°W",6,2,,"landfill gas","Waste Management RE",1996,41.7338,-88.0849
+2,"Lake Gas Recovery",Northbrook,"42.1062 -87.8137",6,2,,"landfill gas","Waste Management RE",1993,42.1062,-87.8137
+3,Livingston,Pontiac,"40.9314°N 88.6548°W",15,3,,"landfill gas","Hoosier Energy REC",1993,40.9314,-88.6548
+4,"Orchard Hills",Rockford,"42.3211°N 88.0319°W",16.2,6,,"landfill gas","Hoosier Energy REC",2016,42.3211,-88.0319
+5,"Settlers Hill Gas Recovery",Batavia,"41.8719°N 88.2877°W",6,2,,"landfill gas","Waste Management RE",1988,41.8719,-88.2877

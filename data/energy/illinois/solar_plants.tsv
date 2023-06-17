@@ -1,6 +1,6 @@
-Name	Location	Type	nameplateCapacity	2016NetGeneration	acreage	operator	opened
-Exelon City Solar	Pullman, Chicago	Crystalline silicon[81]
-Geneseo	Geneseo	Crystalline silicon[81]
-Grand Ridge Solar Farm	LaSalle County	CIGS[81]
-North Ninth Street	Rochelle	Crystalline silicon[81]
-Rockford Solar Farm	Rockford	Crystalline silicon[81]
+name	location	type	nameplateCapacity	2016NetGeneration	acreage	operator	opened	yCoordinate	xCoordinate
+Exelon City Solar	Pullman, Chicago	Crystalline silicon	9.0	14102	41.0	Exelon	2010	41.69855099999999	-87.597484
+Geneseo	Geneseo	Crystalline silicon	1.2	1663	5.0	City of Geneseo	2015	41.4502406	-90.1611457
+Grand Ridge Solar Farm	LaSalle County	CIGS	20.0	29350		Invenergy	2012	41.2369791	-88.8314652
+North Ninth Street	Rochelle	Crystalline silicon	0.312	396		Rochelle Minicipal Utilities	2014	41.9266419	-89.0712838
+Rockford Solar Farm	Rockford	Crystalline silicon	2.6	3299		Rockford Solar Partners	2012	42.2711311	-89.0939952

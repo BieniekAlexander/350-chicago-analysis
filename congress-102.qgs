@@ -1,0 +1,3644 @@
+<qgis projectname="" version="3.10.4-A Coruña">
+  <homePath path=""></homePath>
+  <title></title>
+  <autotransaction active="0"></autotransaction>
+  <evaluateDefaultValues active="0"></evaluateDefaultValues>
+  <trust active="0"></trust>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties></customproperties>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="sens_103_77f7ca8d_5489_46c2_9cfb_ba07e5f1ec9b" name="sens-103" providerKey="delimitedtext" source="./data/government/illinois/legislature/103/sens.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839" name="reps-103" providerKey="delimitedtext" source="./data/government/illinois/legislature/103/reps.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51" name="reps-102" providerKey="delimitedtext" source="./data/government/illinois/legislature/102/reps.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f" name="sens-102" providerKey="delimitedtext" source="./data/government/illinois/legislature/102/sens.tsv?type=csv&amp;delimiter=\t&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="districts_45d296de_4d89_411e_a954_341b3d1b4903" name="sens-103" providerKey="ogr" source="/vsizip/./data/government/illinois/districts/2020/IllinoisSenate.zip/districts.shp">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="districts_754ceda3_1bc5_473a_860d_56f6c27a74ab" name="sens-102" providerKey="ogr" source="/vsizip/./data/government/illinois/districts/2020/IllinoisSenate.zip/districts.shp">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="districts_c042a8be_3cc6_42ac_bd6e_827b55205962" name="reps-103" providerKey="ogr" source="/vsizip/./data/government/illinois/districts/2020/illinoisStateReps.zip/districts.shp">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Checked" expanded="1" id="districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34" name="reps-102" providerKey="ogr" source="/vsizip/./data/government/illinois/districts/2020/illinoisStateReps.zip/districts.shp">
+      <customproperties></customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34</item>
+      <item>districts_c042a8be_3cc6_42ac_bd6e_827b55205962</item>
+      <item>districts_754ceda3_1bc5_473a_860d_56f6c27a74ab</item>
+      <item>districts_45d296de_4d89_411e_a954_341b3d1b4903</item>
+      <item>sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f</item>
+      <item>reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51</item>
+      <item>reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839</item>
+      <item>sens_103_77f7ca8d_5489_46c2_9cfb_ba07e5f1ec9b</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" intersection-snapping="0" mode="2" tolerance="12" type="1" unit="1">
+    <individual-layer-settings>
+      <layer-setting enabled="0" id="districts_c042a8be_3cc6_42ac_bd6e_827b55205962" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="districts_45d296de_4d89_411e_a954_341b3d1b4903" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34" tolerance="12" type="1" units="1"></layer-setting>
+      <layer-setting enabled="0" id="districts_754ceda3_1bc5_473a_860d_56f6c27a74ab" tolerance="12" type="1" units="1"></layer-setting>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations></relations>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-90.84522295400000758</xmin>
+      <ymin>36.77369946800001799</ymin>
+      <xmax>-86.12742070400000216</xmax>
+      <ymax>42.58879266800001062</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope></expressionContextScope>
+  </mapcanvas>
+  <projectModels></projectModels>
+  <legend updateDrawingOrder="true">
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="sens-103" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="sens_103_77f7ca8d_5489_46c2_9cfb_ba07e5f1ec9b" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="reps-103" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="reps-102" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="sens-102" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="sens-103" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="districts_45d296de_4d89_411e_a954_341b3d1b4903" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="sens-102" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="districts_754ceda3_1bc5_473a_860d_56f6c27a74ab" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="reps-103" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="districts_c042a8be_3cc6_42ac_bd6e_827b55205962" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="reps-102" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34" visible="1"></legendlayerfile>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks></mapViewDocks>
+  <mapViewDocks3D></mapViewDocks3D>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope></expressionContextScope>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope></expressionContextScope>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope></expressionContextScope>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mMapCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>-91.62541462500000478</xmin>
+      <ymin>36.83185040000000043</ymin>
+      <xmax>-86.90761237499999936</xmax>
+      <ymax>42.64694359999999307</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope></expressionContextScope>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" styleCategories="AllStyleCategories" type="vector" wkbType="MultiPolygon">
+      <extent>
+        <xmin>-91.51308600000000126</xmin>
+        <ymin>36.9703050000000033</ymin>
+        <xmax>-87.01994100000000287</xmax>
+        <ymax>42.5084889999999973</ymax>
+      </extent>
+      <id>districts_45d296de_4d89_411e_a954_341b3d1b4903</id>
+      <datasource>/vsizip/./data/government/illinois/districts/2020/IllinoisSenate.zip/districts.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sens-103</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxx="0" maxy="0" maxz="0" minx="0" miny="0" minz="0"></spatial>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join cascadedDelete="0" dynamicForm="0" editable="0" joinFieldName="district" joinLayerId="reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51" memoryCache="1" targetFieldName="district" upsertOnEdit="0"></join>
+      </vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="color" v="125,139,143,255"></prop>
+              <prop k="joinstyle" v="bevel"></prop>
+              <prop k="offset" v="0,0"></prop>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="offset_unit" v="MM"></prop>
+              <prop k="outline_color" v="35,35,35,255"></prop>
+              <prop k="outline_style" v="solid"></prop>
+              <prop k="outline_width" v="0.26"></prop>
+              <prop k="outline_width_unit" v="MM"></prop>
+              <prop k="style" v="solid"></prop>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""></Option>
+                  <Option name="properties"></Option>
+                  <Option name="type" type="QString" value="collection"></Option>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation></rotation>
+        <sizescale></sizescale>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>id</value>
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"></property>
+        <property key="variableNames"></property>
+        <property key="variableValues"></property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" opacity="1" penAlpha="255" penColor="#000000" penWidth="0" rotationOffset="270" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15">
+          <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""></fontProperties>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" placement="1" priority="0" showAll="1" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""></Option>
+            <Option name="properties"></Option>
+            <Option name="type" type="QString" value="collection"></Option>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks></activeChecks>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"></Option>
+            <Option name="allowedGapsEnabled" type="bool" value="false"></Option>
+            <Option name="allowedGapsLayer" type="QString" value=""></Option>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="contiguity">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="compactnes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="white">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pacific">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hispanic">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="population">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Nativ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Pacifi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Pacif">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Hispan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Hispa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat20">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_party">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="Range">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="contiguity" index="0" name=""></alias>
+        <alias field="compactnes" index="1" name=""></alias>
+        <alias field="VAP" index="2" name=""></alias>
+        <alias field="CVAP" index="3" name=""></alias>
+        <alias field="asian" index="4" name=""></alias>
+        <alias field="black" index="5" name=""></alias>
+        <alias field="white" index="6" name=""></alias>
+        <alias field="native" index="7" name=""></alias>
+        <alias field="pacific" index="8" name=""></alias>
+        <alias field="hispanic" index="9" name=""></alias>
+        <alias field="VAP Asian" index="10" name=""></alias>
+        <alias field="VAP Black" index="11" name=""></alias>
+        <alias field="VAP White" index="12" name=""></alias>
+        <alias field="CVAP Asian" index="13" name=""></alias>
+        <alias field="CVAP Black" index="14" name=""></alias>
+        <alias field="CVAP White" index="15" name=""></alias>
+        <alias field="VAP Native" index="16" name=""></alias>
+        <alias field="population" index="17" name=""></alias>
+        <alias field="CVAP Nativ" index="18" name=""></alias>
+        <alias field="VAP Pacifi" index="19" name=""></alias>
+        <alias field="CVAP Pacif" index="20" name=""></alias>
+        <alias field="VAP Hispan" index="21" name=""></alias>
+        <alias field="CVAP Hispa" index="22" name=""></alias>
+        <alias field="democrat16" index="23" name=""></alias>
+        <alias field="democrat20" index="24" name=""></alias>
+        <alias field="republican" index="25" name=""></alias>
+        <alias field="republican_1" index="26" name=""></alias>
+        <alias field="other part" index="27" name=""></alias>
+        <alias field="other part_1" index="28" name=""></alias>
+        <alias field="id" index="29" name=""></alias>
+        <alias field="reps-102_name" index="30" name=""></alias>
+        <alias field="reps-102_party" index="31" name=""></alias>
+        <alias field="reps-102_label" index="32" name=""></alias>
+        <alias field="district" index="33" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="contiguity"></default>
+        <default applyOnUpdate="0" expression="" field="compactnes"></default>
+        <default applyOnUpdate="0" expression="" field="VAP"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP"></default>
+        <default applyOnUpdate="0" expression="" field="asian"></default>
+        <default applyOnUpdate="0" expression="" field="black"></default>
+        <default applyOnUpdate="0" expression="" field="white"></default>
+        <default applyOnUpdate="0" expression="" field="native"></default>
+        <default applyOnUpdate="0" expression="" field="pacific"></default>
+        <default applyOnUpdate="0" expression="" field="hispanic"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="VAP White"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP White"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Native"></default>
+        <default applyOnUpdate="0" expression="" field="population"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Nativ"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Pacifi"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Pacif"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Hispan"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Hispa"></default>
+        <default applyOnUpdate="0" expression="" field="democrat16"></default>
+        <default applyOnUpdate="0" expression="" field="democrat20"></default>
+        <default applyOnUpdate="0" expression="" field="republican"></default>
+        <default applyOnUpdate="0" expression="" field="republican_1"></default>
+        <default applyOnUpdate="0" expression="" field="other part"></default>
+        <default applyOnUpdate="0" expression="" field="other part_1"></default>
+        <default applyOnUpdate="0" expression="" field="id"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_name"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_party"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_label"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="contiguity" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="compactnes" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="white" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="pacific" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="hispanic" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="population" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Nativ" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Pacifi" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Pacif" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Hispan" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Hispa" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat16" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat20" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_label" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="contiguity"></constraint>
+        <constraint desc="" exp="" field="compactnes"></constraint>
+        <constraint desc="" exp="" field="VAP"></constraint>
+        <constraint desc="" exp="" field="CVAP"></constraint>
+        <constraint desc="" exp="" field="asian"></constraint>
+        <constraint desc="" exp="" field="black"></constraint>
+        <constraint desc="" exp="" field="white"></constraint>
+        <constraint desc="" exp="" field="native"></constraint>
+        <constraint desc="" exp="" field="pacific"></constraint>
+        <constraint desc="" exp="" field="hispanic"></constraint>
+        <constraint desc="" exp="" field="VAP Asian"></constraint>
+        <constraint desc="" exp="" field="VAP Black"></constraint>
+        <constraint desc="" exp="" field="VAP White"></constraint>
+        <constraint desc="" exp="" field="CVAP Asian"></constraint>
+        <constraint desc="" exp="" field="CVAP Black"></constraint>
+        <constraint desc="" exp="" field="CVAP White"></constraint>
+        <constraint desc="" exp="" field="VAP Native"></constraint>
+        <constraint desc="" exp="" field="population"></constraint>
+        <constraint desc="" exp="" field="CVAP Nativ"></constraint>
+        <constraint desc="" exp="" field="VAP Pacifi"></constraint>
+        <constraint desc="" exp="" field="CVAP Pacif"></constraint>
+        <constraint desc="" exp="" field="VAP Hispan"></constraint>
+        <constraint desc="" exp="" field="CVAP Hispa"></constraint>
+        <constraint desc="" exp="" field="democrat16"></constraint>
+        <constraint desc="" exp="" field="democrat20"></constraint>
+        <constraint desc="" exp="" field="republican"></constraint>
+        <constraint desc="" exp="" field="republican_1"></constraint>
+        <constraint desc="" exp="" field="other part"></constraint>
+        <constraint desc="" exp="" field="other part_1"></constraint>
+        <constraint desc="" exp="" field="id"></constraint>
+        <constraint desc="" exp="" field="reps-102_name"></constraint>
+        <constraint desc="" exp="" field="reps-102_party"></constraint>
+        <constraint desc="" exp="" field="reps-102_label"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+      </constraintExpressions>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" name="contiguity" type="field" width="-1"></column>
+          <column hidden="0" name="compactnes" type="field" width="-1"></column>
+          <column hidden="0" name="VAP" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP" type="field" width="-1"></column>
+          <column hidden="0" name="asian" type="field" width="-1"></column>
+          <column hidden="0" name="black" type="field" width="-1"></column>
+          <column hidden="0" name="white" type="field" width="-1"></column>
+          <column hidden="0" name="native" type="field" width="-1"></column>
+          <column hidden="0" name="pacific" type="field" width="-1"></column>
+          <column hidden="0" name="hispanic" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="VAP White" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP White" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Native" type="field" width="-1"></column>
+          <column hidden="0" name="population" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Nativ" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Pacifi" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Pacif" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Hispan" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Hispa" type="field" width="-1"></column>
+          <column hidden="0" name="democrat16" type="field" width="-1"></column>
+          <column hidden="0" name="democrat20" type="field" width="-1"></column>
+          <column hidden="0" name="republican" type="field" width="-1"></column>
+          <column hidden="0" name="republican_1" type="field" width="-1"></column>
+          <column hidden="0" name="other part" type="field" width="-1"></column>
+          <column hidden="0" name="other part_1" type="field" width="-1"></column>
+          <column hidden="0" name="id" type="field" width="-1"></column>
+          <column hidden="1" type="actions" width="-1"></column>
+          <column hidden="0" name="reps-102_name" type="field" width="-1"></column>
+          <column hidden="0" name="reps-102_party" type="field" width="-1"></column>
+          <column hidden="0" name="reps-102_label" type="field" width="-1"></column>
+          <column hidden="0" name="district" type="field" width="-1"></column>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode># -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+</editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CVAP"></field>
+        <field editable="1" name="CVAP Asian"></field>
+        <field editable="1" name="CVAP Black"></field>
+        <field editable="1" name="CVAP Hispa"></field>
+        <field editable="1" name="CVAP Nativ"></field>
+        <field editable="1" name="CVAP Pacif"></field>
+        <field editable="1" name="CVAP White"></field>
+        <field editable="1" name="VAP"></field>
+        <field editable="1" name="VAP Asian"></field>
+        <field editable="1" name="VAP Black"></field>
+        <field editable="1" name="VAP Hispan"></field>
+        <field editable="1" name="VAP Native"></field>
+        <field editable="1" name="VAP Pacifi"></field>
+        <field editable="1" name="VAP White"></field>
+        <field editable="1" name="asian"></field>
+        <field editable="1" name="black"></field>
+        <field editable="1" name="compactnes"></field>
+        <field editable="1" name="contiguity"></field>
+        <field editable="1" name="democrat16"></field>
+        <field editable="1" name="democrat20"></field>
+        <field editable="0" name="district"></field>
+        <field editable="1" name="hispanic"></field>
+        <field editable="1" name="id"></field>
+        <field editable="1" name="native"></field>
+        <field editable="1" name="other part"></field>
+        <field editable="1" name="other part_1"></field>
+        <field editable="1" name="pacific"></field>
+        <field editable="1" name="population"></field>
+        <field editable="0" name="reps-102_label"></field>
+        <field editable="0" name="reps-102_name"></field>
+        <field editable="0" name="reps-102_party"></field>
+        <field editable="1" name="republican"></field>
+        <field editable="1" name="republican_1"></field>
+        <field editable="1" name="white"></field>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CVAP"></field>
+        <field labelOnTop="0" name="CVAP Asian"></field>
+        <field labelOnTop="0" name="CVAP Black"></field>
+        <field labelOnTop="0" name="CVAP Hispa"></field>
+        <field labelOnTop="0" name="CVAP Nativ"></field>
+        <field labelOnTop="0" name="CVAP Pacif"></field>
+        <field labelOnTop="0" name="CVAP White"></field>
+        <field labelOnTop="0" name="VAP"></field>
+        <field labelOnTop="0" name="VAP Asian"></field>
+        <field labelOnTop="0" name="VAP Black"></field>
+        <field labelOnTop="0" name="VAP Hispan"></field>
+        <field labelOnTop="0" name="VAP Native"></field>
+        <field labelOnTop="0" name="VAP Pacifi"></field>
+        <field labelOnTop="0" name="VAP White"></field>
+        <field labelOnTop="0" name="asian"></field>
+        <field labelOnTop="0" name="black"></field>
+        <field labelOnTop="0" name="compactnes"></field>
+        <field labelOnTop="0" name="contiguity"></field>
+        <field labelOnTop="0" name="democrat16"></field>
+        <field labelOnTop="0" name="democrat20"></field>
+        <field labelOnTop="0" name="district"></field>
+        <field labelOnTop="0" name="hispanic"></field>
+        <field labelOnTop="0" name="id"></field>
+        <field labelOnTop="0" name="native"></field>
+        <field labelOnTop="0" name="other part"></field>
+        <field labelOnTop="0" name="other part_1"></field>
+        <field labelOnTop="0" name="pacific"></field>
+        <field labelOnTop="0" name="population"></field>
+        <field labelOnTop="0" name="reps-102_label"></field>
+        <field labelOnTop="0" name="reps-102_name"></field>
+        <field labelOnTop="0" name="reps-102_party"></field>
+        <field labelOnTop="0" name="republican"></field>
+        <field labelOnTop="0" name="republican_1"></field>
+        <field labelOnTop="0" name="white"></field>
+      </labelOnTop>
+      <widgets></widgets>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" styleCategories="AllStyleCategories" type="vector" wkbType="MultiPolygon">
+      <extent>
+        <xmin>-91.51308600000000126</xmin>
+        <ymin>36.9703050000000033</ymin>
+        <xmax>-87.01994100000000287</xmax>
+        <ymax>42.5084889999999973</ymax>
+      </extent>
+      <id>districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34</id>
+      <datasource>/vsizip/./data/government/illinois/districts/2020/illinoisStateReps.zip/districts.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reps-102</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxx="0" maxy="0" maxz="0" minx="0" miny="0" minz="0"></spatial>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join cascadedDelete="0" dynamicForm="0" editable="0" joinFieldName="district" joinLayerId="reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51" memoryCache="1" targetFieldName="district" upsertOnEdit="0"></join>
+      </vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="color" v="229,182,54,255"></prop>
+              <prop k="joinstyle" v="bevel"></prop>
+              <prop k="offset" v="0,0"></prop>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="offset_unit" v="MM"></prop>
+              <prop k="outline_color" v="35,35,35,255"></prop>
+              <prop k="outline_style" v="solid"></prop>
+              <prop k="outline_width" v="0.26"></prop>
+              <prop k="outline_width_unit" v="MM"></prop>
+              <prop k="style" v="solid"></prop>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""></Option>
+                  <Option name="properties"></Option>
+                  <Option name="type" type="QString" value="collection"></Option>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation></rotation>
+        <sizescale></sizescale>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"></property>
+        <property key="variableNames"></property>
+        <property key="variableValues"></property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" opacity="1" penAlpha="255" penColor="#000000" penWidth="0" rotationOffset="270" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15">
+          <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""></fontProperties>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" placement="1" priority="0" showAll="1" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""></Option>
+            <Option name="properties"></Option>
+            <Option name="type" type="QString" value="collection"></Option>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks></activeChecks>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"></Option>
+            <Option name="allowedGapsEnabled" type="bool" value="false"></Option>
+            <Option name="allowedGapsLayer" type="QString" value=""></Option>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="contiguity">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="compactnes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="white">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pacific">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hispanic">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="population">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Nativ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Pacifi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Pacif">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Hispan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Hispa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat20">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_party">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-102_label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="Range">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="contiguity" index="0" name=""></alias>
+        <alias field="compactnes" index="1" name=""></alias>
+        <alias field="VAP" index="2" name=""></alias>
+        <alias field="CVAP" index="3" name=""></alias>
+        <alias field="asian" index="4" name=""></alias>
+        <alias field="black" index="5" name=""></alias>
+        <alias field="white" index="6" name=""></alias>
+        <alias field="native" index="7" name=""></alias>
+        <alias field="pacific" index="8" name=""></alias>
+        <alias field="hispanic" index="9" name=""></alias>
+        <alias field="VAP Asian" index="10" name=""></alias>
+        <alias field="VAP Black" index="11" name=""></alias>
+        <alias field="VAP White" index="12" name=""></alias>
+        <alias field="CVAP Asian" index="13" name=""></alias>
+        <alias field="CVAP Black" index="14" name=""></alias>
+        <alias field="CVAP White" index="15" name=""></alias>
+        <alias field="VAP Native" index="16" name=""></alias>
+        <alias field="population" index="17" name=""></alias>
+        <alias field="CVAP Nativ" index="18" name=""></alias>
+        <alias field="VAP Pacifi" index="19" name=""></alias>
+        <alias field="CVAP Pacif" index="20" name=""></alias>
+        <alias field="VAP Hispan" index="21" name=""></alias>
+        <alias field="CVAP Hispa" index="22" name=""></alias>
+        <alias field="democrat16" index="23" name=""></alias>
+        <alias field="democrat20" index="24" name=""></alias>
+        <alias field="republican" index="25" name=""></alias>
+        <alias field="republican_1" index="26" name=""></alias>
+        <alias field="other part" index="27" name=""></alias>
+        <alias field="other part_1" index="28" name=""></alias>
+        <alias field="id" index="29" name=""></alias>
+        <alias field="reps-102_name" index="30" name=""></alias>
+        <alias field="reps-102_party" index="31" name=""></alias>
+        <alias field="reps-102_label" index="32" name=""></alias>
+        <alias field="district" index="33" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="contiguity"></default>
+        <default applyOnUpdate="0" expression="" field="compactnes"></default>
+        <default applyOnUpdate="0" expression="" field="VAP"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP"></default>
+        <default applyOnUpdate="0" expression="" field="asian"></default>
+        <default applyOnUpdate="0" expression="" field="black"></default>
+        <default applyOnUpdate="0" expression="" field="white"></default>
+        <default applyOnUpdate="0" expression="" field="native"></default>
+        <default applyOnUpdate="0" expression="" field="pacific"></default>
+        <default applyOnUpdate="0" expression="" field="hispanic"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="VAP White"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP White"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Native"></default>
+        <default applyOnUpdate="0" expression="" field="population"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Nativ"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Pacifi"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Pacif"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Hispan"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Hispa"></default>
+        <default applyOnUpdate="0" expression="" field="democrat16"></default>
+        <default applyOnUpdate="0" expression="" field="democrat20"></default>
+        <default applyOnUpdate="0" expression="" field="republican"></default>
+        <default applyOnUpdate="0" expression="" field="republican_1"></default>
+        <default applyOnUpdate="0" expression="" field="other part"></default>
+        <default applyOnUpdate="0" expression="" field="other part_1"></default>
+        <default applyOnUpdate="0" expression="" field="id"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_name"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_party"></default>
+        <default applyOnUpdate="0" expression="" field="reps-102_label"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="contiguity" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="compactnes" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="white" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="pacific" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="hispanic" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="population" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Nativ" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Pacifi" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Pacif" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Hispan" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Hispa" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat16" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat20" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-102_label" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="contiguity"></constraint>
+        <constraint desc="" exp="" field="compactnes"></constraint>
+        <constraint desc="" exp="" field="VAP"></constraint>
+        <constraint desc="" exp="" field="CVAP"></constraint>
+        <constraint desc="" exp="" field="asian"></constraint>
+        <constraint desc="" exp="" field="black"></constraint>
+        <constraint desc="" exp="" field="white"></constraint>
+        <constraint desc="" exp="" field="native"></constraint>
+        <constraint desc="" exp="" field="pacific"></constraint>
+        <constraint desc="" exp="" field="hispanic"></constraint>
+        <constraint desc="" exp="" field="VAP Asian"></constraint>
+        <constraint desc="" exp="" field="VAP Black"></constraint>
+        <constraint desc="" exp="" field="VAP White"></constraint>
+        <constraint desc="" exp="" field="CVAP Asian"></constraint>
+        <constraint desc="" exp="" field="CVAP Black"></constraint>
+        <constraint desc="" exp="" field="CVAP White"></constraint>
+        <constraint desc="" exp="" field="VAP Native"></constraint>
+        <constraint desc="" exp="" field="population"></constraint>
+        <constraint desc="" exp="" field="CVAP Nativ"></constraint>
+        <constraint desc="" exp="" field="VAP Pacifi"></constraint>
+        <constraint desc="" exp="" field="CVAP Pacif"></constraint>
+        <constraint desc="" exp="" field="VAP Hispan"></constraint>
+        <constraint desc="" exp="" field="CVAP Hispa"></constraint>
+        <constraint desc="" exp="" field="democrat16"></constraint>
+        <constraint desc="" exp="" field="democrat20"></constraint>
+        <constraint desc="" exp="" field="republican"></constraint>
+        <constraint desc="" exp="" field="republican_1"></constraint>
+        <constraint desc="" exp="" field="other part"></constraint>
+        <constraint desc="" exp="" field="other part_1"></constraint>
+        <constraint desc="" exp="" field="id"></constraint>
+        <constraint desc="" exp="" field="reps-102_name"></constraint>
+        <constraint desc="" exp="" field="reps-102_party"></constraint>
+        <constraint desc="" exp="" field="reps-102_label"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+      </constraintExpressions>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" name="contiguity" type="field" width="-1"></column>
+          <column hidden="0" name="compactnes" type="field" width="-1"></column>
+          <column hidden="0" name="VAP" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP" type="field" width="-1"></column>
+          <column hidden="0" name="asian" type="field" width="-1"></column>
+          <column hidden="0" name="black" type="field" width="-1"></column>
+          <column hidden="0" name="white" type="field" width="-1"></column>
+          <column hidden="0" name="native" type="field" width="-1"></column>
+          <column hidden="0" name="pacific" type="field" width="-1"></column>
+          <column hidden="0" name="hispanic" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="VAP White" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP White" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Native" type="field" width="-1"></column>
+          <column hidden="0" name="population" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Nativ" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Pacifi" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Pacif" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Hispan" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Hispa" type="field" width="-1"></column>
+          <column hidden="0" name="democrat16" type="field" width="-1"></column>
+          <column hidden="0" name="democrat20" type="field" width="-1"></column>
+          <column hidden="0" name="republican" type="field" width="-1"></column>
+          <column hidden="0" name="republican_1" type="field" width="-1"></column>
+          <column hidden="0" name="other part" type="field" width="-1"></column>
+          <column hidden="0" name="other part_1" type="field" width="-1"></column>
+          <column hidden="0" name="id" type="field" width="-1"></column>
+          <column hidden="1" type="actions" width="-1"></column>
+          <column hidden="0" name="reps-102_name" type="field" width="-1"></column>
+          <column hidden="0" name="reps-102_party" type="field" width="-1"></column>
+          <column hidden="0" name="reps-102_label" type="field" width="-1"></column>
+          <column hidden="0" name="district" type="field" width="-1"></column>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode># -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+</editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CVAP"></field>
+        <field editable="1" name="CVAP Asian"></field>
+        <field editable="1" name="CVAP Black"></field>
+        <field editable="1" name="CVAP Hispa"></field>
+        <field editable="1" name="CVAP Nativ"></field>
+        <field editable="1" name="CVAP Pacif"></field>
+        <field editable="1" name="CVAP White"></field>
+        <field editable="1" name="VAP"></field>
+        <field editable="1" name="VAP Asian"></field>
+        <field editable="1" name="VAP Black"></field>
+        <field editable="1" name="VAP Hispan"></field>
+        <field editable="1" name="VAP Native"></field>
+        <field editable="1" name="VAP Pacifi"></field>
+        <field editable="1" name="VAP White"></field>
+        <field editable="1" name="asian"></field>
+        <field editable="1" name="black"></field>
+        <field editable="1" name="compactnes"></field>
+        <field editable="1" name="contiguity"></field>
+        <field editable="1" name="democrat16"></field>
+        <field editable="1" name="democrat20"></field>
+        <field editable="0" name="district"></field>
+        <field editable="1" name="hispanic"></field>
+        <field editable="1" name="id"></field>
+        <field editable="1" name="native"></field>
+        <field editable="1" name="other part"></field>
+        <field editable="1" name="other part_1"></field>
+        <field editable="1" name="pacific"></field>
+        <field editable="1" name="population"></field>
+        <field editable="0" name="reps-102_label"></field>
+        <field editable="0" name="reps-102_name"></field>
+        <field editable="0" name="reps-102_party"></field>
+        <field editable="1" name="republican"></field>
+        <field editable="1" name="republican_1"></field>
+        <field editable="1" name="white"></field>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CVAP"></field>
+        <field labelOnTop="0" name="CVAP Asian"></field>
+        <field labelOnTop="0" name="CVAP Black"></field>
+        <field labelOnTop="0" name="CVAP Hispa"></field>
+        <field labelOnTop="0" name="CVAP Nativ"></field>
+        <field labelOnTop="0" name="CVAP Pacif"></field>
+        <field labelOnTop="0" name="CVAP White"></field>
+        <field labelOnTop="0" name="VAP"></field>
+        <field labelOnTop="0" name="VAP Asian"></field>
+        <field labelOnTop="0" name="VAP Black"></field>
+        <field labelOnTop="0" name="VAP Hispan"></field>
+        <field labelOnTop="0" name="VAP Native"></field>
+        <field labelOnTop="0" name="VAP Pacifi"></field>
+        <field labelOnTop="0" name="VAP White"></field>
+        <field labelOnTop="0" name="asian"></field>
+        <field labelOnTop="0" name="black"></field>
+        <field labelOnTop="0" name="compactnes"></field>
+        <field labelOnTop="0" name="contiguity"></field>
+        <field labelOnTop="0" name="democrat16"></field>
+        <field labelOnTop="0" name="democrat20"></field>
+        <field labelOnTop="0" name="district"></field>
+        <field labelOnTop="0" name="hispanic"></field>
+        <field labelOnTop="0" name="id"></field>
+        <field labelOnTop="0" name="native"></field>
+        <field labelOnTop="0" name="other part"></field>
+        <field labelOnTop="0" name="other part_1"></field>
+        <field labelOnTop="0" name="pacific"></field>
+        <field labelOnTop="0" name="population"></field>
+        <field labelOnTop="0" name="reps-102_label"></field>
+        <field labelOnTop="0" name="reps-102_name"></field>
+        <field labelOnTop="0" name="reps-102_party"></field>
+        <field labelOnTop="0" name="republican"></field>
+        <field labelOnTop="0" name="republican_1"></field>
+        <field labelOnTop="0" name="white"></field>
+      </labelOnTop>
+      <widgets></widgets>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" styleCategories="AllStyleCategories" type="vector" wkbType="MultiPolygon">
+      <extent>
+        <xmin>-91.51308600000000126</xmin>
+        <ymin>36.9703050000000033</ymin>
+        <xmax>-87.01994100000000287</xmax>
+        <ymax>42.5084889999999973</ymax>
+      </extent>
+      <id>districts_754ceda3_1bc5_473a_860d_56f6c27a74ab</id>
+      <datasource>/vsizip/./data/government/illinois/districts/2020/IllinoisSenate.zip/districts.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sens-102</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxx="0" maxy="0" maxz="0" minx="0" miny="0" minz="0"></spatial>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join cascadedDelete="0" dynamicForm="0" editable="0" joinFieldName="district" joinLayerId="sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f" memoryCache="1" targetFieldName="district" upsertOnEdit="0"></join>
+      </vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="color" v="145,82,45,255"></prop>
+              <prop k="joinstyle" v="bevel"></prop>
+              <prop k="offset" v="0,0"></prop>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="offset_unit" v="MM"></prop>
+              <prop k="outline_color" v="35,35,35,255"></prop>
+              <prop k="outline_style" v="solid"></prop>
+              <prop k="outline_width" v="0.26"></prop>
+              <prop k="outline_width_unit" v="MM"></prop>
+              <prop k="style" v="solid"></prop>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""></Option>
+                  <Option name="properties"></Option>
+                  <Option name="type" type="QString" value="collection"></Option>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation></rotation>
+        <sizescale></sizescale>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"></property>
+        <property key="variableNames"></property>
+        <property key="variableValues"></property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" opacity="1" penAlpha="255" penColor="#000000" penWidth="0" rotationOffset="270" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15">
+          <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""></fontProperties>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" placement="1" priority="0" showAll="1" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""></Option>
+            <Option name="properties"></Option>
+            <Option name="type" type="QString" value="collection"></Option>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks></activeChecks>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"></Option>
+            <Option name="allowedGapsEnabled" type="bool" value="false"></Option>
+            <Option name="allowedGapsLayer" type="QString" value=""></Option>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="contiguity">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="compactnes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="white">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pacific">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hispanic">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="population">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Nativ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Pacifi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Pacif">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Hispan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Hispa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat20">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sens-102_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sens-102_party">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sens-102_label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="Range">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="contiguity" index="0" name=""></alias>
+        <alias field="compactnes" index="1" name=""></alias>
+        <alias field="VAP" index="2" name=""></alias>
+        <alias field="CVAP" index="3" name=""></alias>
+        <alias field="asian" index="4" name=""></alias>
+        <alias field="black" index="5" name=""></alias>
+        <alias field="white" index="6" name=""></alias>
+        <alias field="native" index="7" name=""></alias>
+        <alias field="pacific" index="8" name=""></alias>
+        <alias field="hispanic" index="9" name=""></alias>
+        <alias field="VAP Asian" index="10" name=""></alias>
+        <alias field="VAP Black" index="11" name=""></alias>
+        <alias field="VAP White" index="12" name=""></alias>
+        <alias field="CVAP Asian" index="13" name=""></alias>
+        <alias field="CVAP Black" index="14" name=""></alias>
+        <alias field="CVAP White" index="15" name=""></alias>
+        <alias field="VAP Native" index="16" name=""></alias>
+        <alias field="population" index="17" name=""></alias>
+        <alias field="CVAP Nativ" index="18" name=""></alias>
+        <alias field="VAP Pacifi" index="19" name=""></alias>
+        <alias field="CVAP Pacif" index="20" name=""></alias>
+        <alias field="VAP Hispan" index="21" name=""></alias>
+        <alias field="CVAP Hispa" index="22" name=""></alias>
+        <alias field="democrat16" index="23" name=""></alias>
+        <alias field="democrat20" index="24" name=""></alias>
+        <alias field="republican" index="25" name=""></alias>
+        <alias field="republican_1" index="26" name=""></alias>
+        <alias field="other part" index="27" name=""></alias>
+        <alias field="other part_1" index="28" name=""></alias>
+        <alias field="id" index="29" name=""></alias>
+        <alias field="sens-102_name" index="30" name=""></alias>
+        <alias field="sens-102_party" index="31" name=""></alias>
+        <alias field="sens-102_label" index="32" name=""></alias>
+        <alias field="district" index="33" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="contiguity"></default>
+        <default applyOnUpdate="0" expression="" field="compactnes"></default>
+        <default applyOnUpdate="0" expression="" field="VAP"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP"></default>
+        <default applyOnUpdate="0" expression="" field="asian"></default>
+        <default applyOnUpdate="0" expression="" field="black"></default>
+        <default applyOnUpdate="0" expression="" field="white"></default>
+        <default applyOnUpdate="0" expression="" field="native"></default>
+        <default applyOnUpdate="0" expression="" field="pacific"></default>
+        <default applyOnUpdate="0" expression="" field="hispanic"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="VAP White"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP White"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Native"></default>
+        <default applyOnUpdate="0" expression="" field="population"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Nativ"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Pacifi"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Pacif"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Hispan"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Hispa"></default>
+        <default applyOnUpdate="0" expression="" field="democrat16"></default>
+        <default applyOnUpdate="0" expression="" field="democrat20"></default>
+        <default applyOnUpdate="0" expression="" field="republican"></default>
+        <default applyOnUpdate="0" expression="" field="republican_1"></default>
+        <default applyOnUpdate="0" expression="" field="other part"></default>
+        <default applyOnUpdate="0" expression="" field="other part_1"></default>
+        <default applyOnUpdate="0" expression="" field="id"></default>
+        <default applyOnUpdate="0" expression="" field="sens-102_name"></default>
+        <default applyOnUpdate="0" expression="" field="sens-102_party"></default>
+        <default applyOnUpdate="0" expression="" field="sens-102_label"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="contiguity" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="compactnes" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="white" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="pacific" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="hispanic" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="population" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Nativ" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Pacifi" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Pacif" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Hispan" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Hispa" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat16" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat20" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="sens-102_name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="sens-102_party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="sens-102_label" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="contiguity"></constraint>
+        <constraint desc="" exp="" field="compactnes"></constraint>
+        <constraint desc="" exp="" field="VAP"></constraint>
+        <constraint desc="" exp="" field="CVAP"></constraint>
+        <constraint desc="" exp="" field="asian"></constraint>
+        <constraint desc="" exp="" field="black"></constraint>
+        <constraint desc="" exp="" field="white"></constraint>
+        <constraint desc="" exp="" field="native"></constraint>
+        <constraint desc="" exp="" field="pacific"></constraint>
+        <constraint desc="" exp="" field="hispanic"></constraint>
+        <constraint desc="" exp="" field="VAP Asian"></constraint>
+        <constraint desc="" exp="" field="VAP Black"></constraint>
+        <constraint desc="" exp="" field="VAP White"></constraint>
+        <constraint desc="" exp="" field="CVAP Asian"></constraint>
+        <constraint desc="" exp="" field="CVAP Black"></constraint>
+        <constraint desc="" exp="" field="CVAP White"></constraint>
+        <constraint desc="" exp="" field="VAP Native"></constraint>
+        <constraint desc="" exp="" field="population"></constraint>
+        <constraint desc="" exp="" field="CVAP Nativ"></constraint>
+        <constraint desc="" exp="" field="VAP Pacifi"></constraint>
+        <constraint desc="" exp="" field="CVAP Pacif"></constraint>
+        <constraint desc="" exp="" field="VAP Hispan"></constraint>
+        <constraint desc="" exp="" field="CVAP Hispa"></constraint>
+        <constraint desc="" exp="" field="democrat16"></constraint>
+        <constraint desc="" exp="" field="democrat20"></constraint>
+        <constraint desc="" exp="" field="republican"></constraint>
+        <constraint desc="" exp="" field="republican_1"></constraint>
+        <constraint desc="" exp="" field="other part"></constraint>
+        <constraint desc="" exp="" field="other part_1"></constraint>
+        <constraint desc="" exp="" field="id"></constraint>
+        <constraint desc="" exp="" field="sens-102_name"></constraint>
+        <constraint desc="" exp="" field="sens-102_party"></constraint>
+        <constraint desc="" exp="" field="sens-102_label"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+      </constraintExpressions>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" name="contiguity" type="field" width="-1"></column>
+          <column hidden="0" name="compactnes" type="field" width="-1"></column>
+          <column hidden="0" name="VAP" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP" type="field" width="-1"></column>
+          <column hidden="0" name="asian" type="field" width="-1"></column>
+          <column hidden="0" name="black" type="field" width="-1"></column>
+          <column hidden="0" name="white" type="field" width="-1"></column>
+          <column hidden="0" name="native" type="field" width="-1"></column>
+          <column hidden="0" name="pacific" type="field" width="-1"></column>
+          <column hidden="0" name="hispanic" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="VAP White" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP White" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Native" type="field" width="-1"></column>
+          <column hidden="0" name="population" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Nativ" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Pacifi" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Pacif" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Hispan" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Hispa" type="field" width="-1"></column>
+          <column hidden="0" name="democrat16" type="field" width="-1"></column>
+          <column hidden="0" name="democrat20" type="field" width="-1"></column>
+          <column hidden="0" name="republican" type="field" width="-1"></column>
+          <column hidden="0" name="republican_1" type="field" width="-1"></column>
+          <column hidden="0" name="other part" type="field" width="-1"></column>
+          <column hidden="0" name="other part_1" type="field" width="-1"></column>
+          <column hidden="0" name="id" type="field" width="-1"></column>
+          <column hidden="1" type="actions" width="-1"></column>
+          <column hidden="0" name="sens-102_name" type="field" width="-1"></column>
+          <column hidden="0" name="sens-102_party" type="field" width="-1"></column>
+          <column hidden="0" name="sens-102_label" type="field" width="-1"></column>
+          <column hidden="0" name="district" type="field" width="-1"></column>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode># -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+</editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CVAP"></field>
+        <field editable="1" name="CVAP Asian"></field>
+        <field editable="1" name="CVAP Black"></field>
+        <field editable="1" name="CVAP Hispa"></field>
+        <field editable="1" name="CVAP Nativ"></field>
+        <field editable="1" name="CVAP Pacif"></field>
+        <field editable="1" name="CVAP White"></field>
+        <field editable="1" name="VAP"></field>
+        <field editable="1" name="VAP Asian"></field>
+        <field editable="1" name="VAP Black"></field>
+        <field editable="1" name="VAP Hispan"></field>
+        <field editable="1" name="VAP Native"></field>
+        <field editable="1" name="VAP Pacifi"></field>
+        <field editable="1" name="VAP White"></field>
+        <field editable="1" name="asian"></field>
+        <field editable="1" name="black"></field>
+        <field editable="1" name="compactnes"></field>
+        <field editable="1" name="contiguity"></field>
+        <field editable="1" name="democrat16"></field>
+        <field editable="1" name="democrat20"></field>
+        <field editable="0" name="district"></field>
+        <field editable="1" name="hispanic"></field>
+        <field editable="1" name="id"></field>
+        <field editable="1" name="native"></field>
+        <field editable="1" name="other part"></field>
+        <field editable="1" name="other part_1"></field>
+        <field editable="1" name="pacific"></field>
+        <field editable="1" name="population"></field>
+        <field editable="1" name="republican"></field>
+        <field editable="1" name="republican_1"></field>
+        <field editable="0" name="sens-102_label"></field>
+        <field editable="0" name="sens-102_name"></field>
+        <field editable="0" name="sens-102_party"></field>
+        <field editable="1" name="white"></field>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CVAP"></field>
+        <field labelOnTop="0" name="CVAP Asian"></field>
+        <field labelOnTop="0" name="CVAP Black"></field>
+        <field labelOnTop="0" name="CVAP Hispa"></field>
+        <field labelOnTop="0" name="CVAP Nativ"></field>
+        <field labelOnTop="0" name="CVAP Pacif"></field>
+        <field labelOnTop="0" name="CVAP White"></field>
+        <field labelOnTop="0" name="VAP"></field>
+        <field labelOnTop="0" name="VAP Asian"></field>
+        <field labelOnTop="0" name="VAP Black"></field>
+        <field labelOnTop="0" name="VAP Hispan"></field>
+        <field labelOnTop="0" name="VAP Native"></field>
+        <field labelOnTop="0" name="VAP Pacifi"></field>
+        <field labelOnTop="0" name="VAP White"></field>
+        <field labelOnTop="0" name="asian"></field>
+        <field labelOnTop="0" name="black"></field>
+        <field labelOnTop="0" name="compactnes"></field>
+        <field labelOnTop="0" name="contiguity"></field>
+        <field labelOnTop="0" name="democrat16"></field>
+        <field labelOnTop="0" name="democrat20"></field>
+        <field labelOnTop="0" name="district"></field>
+        <field labelOnTop="0" name="hispanic"></field>
+        <field labelOnTop="0" name="id"></field>
+        <field labelOnTop="0" name="native"></field>
+        <field labelOnTop="0" name="other part"></field>
+        <field labelOnTop="0" name="other part_1"></field>
+        <field labelOnTop="0" name="pacific"></field>
+        <field labelOnTop="0" name="population"></field>
+        <field labelOnTop="0" name="republican"></field>
+        <field labelOnTop="0" name="republican_1"></field>
+        <field labelOnTop="0" name="sens-102_label"></field>
+        <field labelOnTop="0" name="sens-102_name"></field>
+        <field labelOnTop="0" name="sens-102_party"></field>
+        <field labelOnTop="0" name="white"></field>
+      </labelOnTop>
+      <widgets></widgets>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyLocal="1" simplifyMaxScale="1" styleCategories="AllStyleCategories" type="vector" wkbType="MultiPolygon">
+      <extent>
+        <xmin>-91.51308600000000126</xmin>
+        <ymin>36.9703050000000033</ymin>
+        <xmax>-87.01994100000000287</xmax>
+        <ymax>42.5084889999999973</ymax>
+      </extent>
+      <id>districts_c042a8be_3cc6_42ac_bd6e_827b55205962</id>
+      <datasource>/vsizip/./data/government/illinois/districts/2020/illinoisStateReps.zip/districts.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reps-103</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" dimensions="2" maxx="0" maxy="0" maxz="0" minx="0" miny="0" minz="0"></spatial>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins>
+        <join cascadedDelete="0" dynamicForm="0" editable="0" joinFieldName="district" joinLayerId="reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839" memoryCache="1" targetFieldName="district" upsertOnEdit="0"></join>
+      </vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="0" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="color" v="196,60,57,255"></prop>
+              <prop k="joinstyle" v="bevel"></prop>
+              <prop k="offset" v="0,0"></prop>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="offset_unit" v="MM"></prop>
+              <prop k="outline_color" v="35,35,35,255"></prop>
+              <prop k="outline_style" v="solid"></prop>
+              <prop k="outline_width" v="0.26"></prop>
+              <prop k="outline_width_unit" v="MM"></prop>
+              <prop k="style" v="solid"></prop>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""></Option>
+                  <Option name="properties"></Option>
+                  <Option name="type" type="QString" value="collection"></Option>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation></rotation>
+        <sizescale></sizescale>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"id"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"></property>
+        <property key="variableNames"></property>
+        <property key="variableValues"></property>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory backgroundAlpha="255" backgroundColor="#ffffff" barWidth="5" diagramOrientation="Up" enabled="0" height="15" labelPlacementMethod="XHeight" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" maxScaleDenominator="1e+08" minScaleDenominator="0" minimumSize="0" opacity="1" penAlpha="255" penColor="#000000" penWidth="0" rotationOffset="270" scaleBasedVisibility="0" scaleDependency="Area" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15">
+          <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""></fontProperties>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" obstacle="0" placement="1" priority="0" showAll="1" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""></Option>
+            <Option name="properties"></Option>
+            <Option name="type" type="QString" value="collection"></Option>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks></activeChecks>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option name="allowedGapsBuffer" type="double" value="0"></Option>
+            <Option name="allowedGapsEnabled" type="bool" value="false"></Option>
+            <Option name="allowedGapsLayer" type="QString" value=""></Option>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="contiguity">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="compactnes">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="white">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="pacific">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="hispanic">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Asian">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Black">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP White">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Native">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="population">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Nativ">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Pacifi">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Pacif">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAP Hispan">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CVAP Hispa">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat16">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="democrat20">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="republican_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="other part_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-103_name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-103_party">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reps-103_label">
+          <editWidget type="TextEdit">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="Range">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="contiguity" index="0" name=""></alias>
+        <alias field="compactnes" index="1" name=""></alias>
+        <alias field="VAP" index="2" name=""></alias>
+        <alias field="CVAP" index="3" name=""></alias>
+        <alias field="asian" index="4" name=""></alias>
+        <alias field="black" index="5" name=""></alias>
+        <alias field="white" index="6" name=""></alias>
+        <alias field="native" index="7" name=""></alias>
+        <alias field="pacific" index="8" name=""></alias>
+        <alias field="hispanic" index="9" name=""></alias>
+        <alias field="VAP Asian" index="10" name=""></alias>
+        <alias field="VAP Black" index="11" name=""></alias>
+        <alias field="VAP White" index="12" name=""></alias>
+        <alias field="CVAP Asian" index="13" name=""></alias>
+        <alias field="CVAP Black" index="14" name=""></alias>
+        <alias field="CVAP White" index="15" name=""></alias>
+        <alias field="VAP Native" index="16" name=""></alias>
+        <alias field="population" index="17" name=""></alias>
+        <alias field="CVAP Nativ" index="18" name=""></alias>
+        <alias field="VAP Pacifi" index="19" name=""></alias>
+        <alias field="CVAP Pacif" index="20" name=""></alias>
+        <alias field="VAP Hispan" index="21" name=""></alias>
+        <alias field="CVAP Hispa" index="22" name=""></alias>
+        <alias field="democrat16" index="23" name=""></alias>
+        <alias field="democrat20" index="24" name=""></alias>
+        <alias field="republican" index="25" name=""></alias>
+        <alias field="republican_1" index="26" name=""></alias>
+        <alias field="other part" index="27" name=""></alias>
+        <alias field="other part_1" index="28" name=""></alias>
+        <alias field="id" index="29" name=""></alias>
+        <alias field="reps-103_name" index="30" name=""></alias>
+        <alias field="reps-103_party" index="31" name=""></alias>
+        <alias field="reps-103_label" index="32" name=""></alias>
+        <alias field="district" index="33" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="contiguity"></default>
+        <default applyOnUpdate="0" expression="" field="compactnes"></default>
+        <default applyOnUpdate="0" expression="" field="VAP"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP"></default>
+        <default applyOnUpdate="0" expression="" field="asian"></default>
+        <default applyOnUpdate="0" expression="" field="black"></default>
+        <default applyOnUpdate="0" expression="" field="white"></default>
+        <default applyOnUpdate="0" expression="" field="native"></default>
+        <default applyOnUpdate="0" expression="" field="pacific"></default>
+        <default applyOnUpdate="0" expression="" field="hispanic"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="VAP White"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Asian"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Black"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP White"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Native"></default>
+        <default applyOnUpdate="0" expression="" field="population"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Nativ"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Pacifi"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Pacif"></default>
+        <default applyOnUpdate="0" expression="" field="VAP Hispan"></default>
+        <default applyOnUpdate="0" expression="" field="CVAP Hispa"></default>
+        <default applyOnUpdate="0" expression="" field="democrat16"></default>
+        <default applyOnUpdate="0" expression="" field="democrat20"></default>
+        <default applyOnUpdate="0" expression="" field="republican"></default>
+        <default applyOnUpdate="0" expression="" field="republican_1"></default>
+        <default applyOnUpdate="0" expression="" field="other part"></default>
+        <default applyOnUpdate="0" expression="" field="other part_1"></default>
+        <default applyOnUpdate="0" expression="" field="id"></default>
+        <default applyOnUpdate="0" expression="" field="reps-103_name"></default>
+        <default applyOnUpdate="0" expression="" field="reps-103_party"></default>
+        <default applyOnUpdate="0" expression="" field="reps-103_label"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="contiguity" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="compactnes" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="white" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="pacific" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="hispanic" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Asian" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Black" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP White" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Native" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="population" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Nativ" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Pacifi" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Pacif" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="VAP Hispan" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="CVAP Hispa" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat16" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="democrat20" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="republican_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="other part_1" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="id" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-103_name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-103_party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="reps-103_label" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="contiguity"></constraint>
+        <constraint desc="" exp="" field="compactnes"></constraint>
+        <constraint desc="" exp="" field="VAP"></constraint>
+        <constraint desc="" exp="" field="CVAP"></constraint>
+        <constraint desc="" exp="" field="asian"></constraint>
+        <constraint desc="" exp="" field="black"></constraint>
+        <constraint desc="" exp="" field="white"></constraint>
+        <constraint desc="" exp="" field="native"></constraint>
+        <constraint desc="" exp="" field="pacific"></constraint>
+        <constraint desc="" exp="" field="hispanic"></constraint>
+        <constraint desc="" exp="" field="VAP Asian"></constraint>
+        <constraint desc="" exp="" field="VAP Black"></constraint>
+        <constraint desc="" exp="" field="VAP White"></constraint>
+        <constraint desc="" exp="" field="CVAP Asian"></constraint>
+        <constraint desc="" exp="" field="CVAP Black"></constraint>
+        <constraint desc="" exp="" field="CVAP White"></constraint>
+        <constraint desc="" exp="" field="VAP Native"></constraint>
+        <constraint desc="" exp="" field="population"></constraint>
+        <constraint desc="" exp="" field="CVAP Nativ"></constraint>
+        <constraint desc="" exp="" field="VAP Pacifi"></constraint>
+        <constraint desc="" exp="" field="CVAP Pacif"></constraint>
+        <constraint desc="" exp="" field="VAP Hispan"></constraint>
+        <constraint desc="" exp="" field="CVAP Hispa"></constraint>
+        <constraint desc="" exp="" field="democrat16"></constraint>
+        <constraint desc="" exp="" field="democrat20"></constraint>
+        <constraint desc="" exp="" field="republican"></constraint>
+        <constraint desc="" exp="" field="republican_1"></constraint>
+        <constraint desc="" exp="" field="other part"></constraint>
+        <constraint desc="" exp="" field="other part_1"></constraint>
+        <constraint desc="" exp="" field="id"></constraint>
+        <constraint desc="" exp="" field="reps-103_name"></constraint>
+        <constraint desc="" exp="" field="reps-103_party"></constraint>
+        <constraint desc="" exp="" field="reps-103_label"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+      </constraintExpressions>
+      <expressionfields>
+        <field comment="" expression="id" length="10" name="district" precision="0" subType="0" type="2" typeName="integer"></field>
+      </expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" name="contiguity" type="field" width="-1"></column>
+          <column hidden="0" name="compactnes" type="field" width="-1"></column>
+          <column hidden="0" name="VAP" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP" type="field" width="-1"></column>
+          <column hidden="0" name="asian" type="field" width="-1"></column>
+          <column hidden="0" name="black" type="field" width="-1"></column>
+          <column hidden="0" name="white" type="field" width="-1"></column>
+          <column hidden="0" name="native" type="field" width="-1"></column>
+          <column hidden="0" name="pacific" type="field" width="-1"></column>
+          <column hidden="0" name="hispanic" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="VAP White" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Asian" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Black" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP White" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Native" type="field" width="-1"></column>
+          <column hidden="0" name="population" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Nativ" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Pacifi" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Pacif" type="field" width="-1"></column>
+          <column hidden="0" name="VAP Hispan" type="field" width="-1"></column>
+          <column hidden="0" name="CVAP Hispa" type="field" width="-1"></column>
+          <column hidden="0" name="democrat16" type="field" width="-1"></column>
+          <column hidden="0" name="democrat20" type="field" width="-1"></column>
+          <column hidden="0" name="republican" type="field" width="-1"></column>
+          <column hidden="0" name="republican_1" type="field" width="-1"></column>
+          <column hidden="0" name="other part" type="field" width="-1"></column>
+          <column hidden="0" name="other part_1" type="field" width="-1"></column>
+          <column hidden="0" name="id" type="field" width="-1"></column>
+          <column hidden="1" type="actions" width="-1"></column>
+          <column hidden="0" name="district" type="field" width="-1"></column>
+          <column hidden="0" name="reps-103_name" type="field" width="-1"></column>
+          <column hidden="0" name="reps-103_party" type="field" width="-1"></column>
+          <column hidden="0" name="reps-103_label" type="field" width="-1"></column>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode># -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+</editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="CVAP"></field>
+        <field editable="1" name="CVAP Asian"></field>
+        <field editable="1" name="CVAP Black"></field>
+        <field editable="1" name="CVAP Hispa"></field>
+        <field editable="1" name="CVAP Nativ"></field>
+        <field editable="1" name="CVAP Pacif"></field>
+        <field editable="1" name="CVAP White"></field>
+        <field editable="1" name="VAP"></field>
+        <field editable="1" name="VAP Asian"></field>
+        <field editable="1" name="VAP Black"></field>
+        <field editable="1" name="VAP Hispan"></field>
+        <field editable="1" name="VAP Native"></field>
+        <field editable="1" name="VAP Pacifi"></field>
+        <field editable="1" name="VAP White"></field>
+        <field editable="1" name="asian"></field>
+        <field editable="1" name="black"></field>
+        <field editable="1" name="compactnes"></field>
+        <field editable="1" name="contiguity"></field>
+        <field editable="1" name="democrat16"></field>
+        <field editable="1" name="democrat20"></field>
+        <field editable="0" name="district"></field>
+        <field editable="1" name="hispanic"></field>
+        <field editable="1" name="id"></field>
+        <field editable="1" name="native"></field>
+        <field editable="1" name="other part"></field>
+        <field editable="1" name="other part_1"></field>
+        <field editable="1" name="pacific"></field>
+        <field editable="1" name="population"></field>
+        <field editable="0" name="reps-103_label"></field>
+        <field editable="0" name="reps-103_name"></field>
+        <field editable="0" name="reps-103_party"></field>
+        <field editable="1" name="republican"></field>
+        <field editable="1" name="republican_1"></field>
+        <field editable="1" name="white"></field>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CVAP"></field>
+        <field labelOnTop="0" name="CVAP Asian"></field>
+        <field labelOnTop="0" name="CVAP Black"></field>
+        <field labelOnTop="0" name="CVAP Hispa"></field>
+        <field labelOnTop="0" name="CVAP Nativ"></field>
+        <field labelOnTop="0" name="CVAP Pacif"></field>
+        <field labelOnTop="0" name="CVAP White"></field>
+        <field labelOnTop="0" name="VAP"></field>
+        <field labelOnTop="0" name="VAP Asian"></field>
+        <field labelOnTop="0" name="VAP Black"></field>
+        <field labelOnTop="0" name="VAP Hispan"></field>
+        <field labelOnTop="0" name="VAP Native"></field>
+        <field labelOnTop="0" name="VAP Pacifi"></field>
+        <field labelOnTop="0" name="VAP White"></field>
+        <field labelOnTop="0" name="asian"></field>
+        <field labelOnTop="0" name="black"></field>
+        <field labelOnTop="0" name="compactnes"></field>
+        <field labelOnTop="0" name="contiguity"></field>
+        <field labelOnTop="0" name="democrat16"></field>
+        <field labelOnTop="0" name="democrat20"></field>
+        <field labelOnTop="0" name="district"></field>
+        <field labelOnTop="0" name="hispanic"></field>
+        <field labelOnTop="0" name="id"></field>
+        <field labelOnTop="0" name="native"></field>
+        <field labelOnTop="0" name="other part"></field>
+        <field labelOnTop="0" name="other part_1"></field>
+        <field labelOnTop="0" name="pacific"></field>
+        <field labelOnTop="0" name="population"></field>
+        <field labelOnTop="0" name="reps-103_label"></field>
+        <field labelOnTop="0" name="reps-103_name"></field>
+        <field labelOnTop="0" name="reps-103_party"></field>
+        <field labelOnTop="0" name="republican"></field>
+        <field labelOnTop="0" name="republican_1"></field>
+        <field labelOnTop="0" name="white"></field>
+      </labelOnTop>
+      <widgets></widgets>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="vector" wkbType="NoGeometry">
+      <id>reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51</id>
+      <datasource>file:./data/government/illinois/legislature/102/reps.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reps-102</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent></extent>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins></vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields></expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties></customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""></Option>
+        </activeChecks>
+        <checkConfiguration></checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="party">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="name" index="0" name=""></alias>
+        <alias field="party" index="1" name=""></alias>
+        <alias field="district" index="2" name=""></alias>
+        <alias field="label" index="3" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="name"></default>
+        <default applyOnUpdate="0" expression="" field="party"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+        <default applyOnUpdate="0" expression="" field="label"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="label" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="name"></constraint>
+        <constraint desc="" exp="" field="party"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+        <constraint desc="" exp="" field="label"></constraint>
+      </constraintExpressions>
+      <expressionfields></expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns></columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable></editable>
+      <labelOnTop></labelOnTop>
+      <widgets></widgets>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="vector" wkbType="NoGeometry">
+      <id>reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839</id>
+      <datasource>file:./data/government/illinois/legislature/103/reps.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>reps-103</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent></extent>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins></vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields></expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties></customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""></Option>
+        </activeChecks>
+        <checkConfiguration></checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="party">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="name" index="0" name=""></alias>
+        <alias field="party" index="1" name=""></alias>
+        <alias field="district" index="2" name=""></alias>
+        <alias field="label" index="3" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="name"></default>
+        <default applyOnUpdate="0" expression="" field="party"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+        <default applyOnUpdate="0" expression="" field="label"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="label" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="name"></constraint>
+        <constraint desc="" exp="" field="party"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+        <constraint desc="" exp="" field="label"></constraint>
+      </constraintExpressions>
+      <expressionfields></expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns></columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable></editable>
+      <labelOnTop></labelOnTop>
+      <widgets></widgets>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="vector" wkbType="NoGeometry">
+      <id>sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f</id>
+      <datasource>file:./data/government/illinois/legislature/102/sens.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sens-102</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent></extent>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins></vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields></expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties></customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""></Option>
+        </activeChecks>
+        <checkConfiguration></checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="party">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="name" index="0" name=""></alias>
+        <alias field="party" index="1" name=""></alias>
+        <alias field="district" index="2" name=""></alias>
+        <alias field="label" index="3" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="name"></default>
+        <default applyOnUpdate="0" expression="" field="party"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+        <default applyOnUpdate="0" expression="" field="label"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="label" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="name"></constraint>
+        <constraint desc="" exp="" field="party"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+        <constraint desc="" exp="" field="label"></constraint>
+      </constraintExpressions>
+      <expressionfields></expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns></columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable></editable>
+      <labelOnTop></labelOnTop>
+      <widgets></widgets>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" autoRefreshTime="0" geometry="No geometry" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" type="vector" wkbType="NoGeometry">
+      <id>sens_103_77f7ca8d_5489_46c2_9cfb_ba07e5f1ec9b</id>
+      <datasource>file:./data/government/illinois/legislature/103/sens.tsv?type=csv&amp;delimiter=%5Ct&amp;trimFields=Yes&amp;detectTypes=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>sens-103</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links></links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent></extent>
+      </resourceMetadata>
+      <provider encoding="">delimitedtext</provider>
+      <vectorjoins></vectorjoins>
+      <layerDependencies></layerDependencies>
+      <dataDependencies></dataDependencies>
+      <legend type="default-vector"></legend>
+      <expressionfields></expressionfields>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"></map-layer-style>
+      </map-layer-style-manager>
+      <auxiliaryLayer></auxiliaryLayer>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties></customproperties>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""></Option>
+        </activeChecks>
+        <checkConfiguration></checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="name">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="party">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label">
+          <editWidget type="">
+            <config>
+              <Option></Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="name" index="0" name=""></alias>
+        <alias field="party" index="1" name=""></alias>
+        <alias field="district" index="2" name=""></alias>
+        <alias field="label" index="3" name=""></alias>
+      </aliases>
+      <excludeAttributesWMS></excludeAttributesWMS>
+      <excludeAttributesWFS></excludeAttributesWFS>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="name"></default>
+        <default applyOnUpdate="0" expression="" field="party"></default>
+        <default applyOnUpdate="0" expression="" field="district"></default>
+        <default applyOnUpdate="0" expression="" field="label"></default>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="name" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="party" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="district" notnull_strength="0" unique_strength="0"></constraint>
+        <constraint constraints="0" exp_strength="0" field="label" notnull_strength="0" unique_strength="0"></constraint>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="name"></constraint>
+        <constraint desc="" exp="" field="party"></constraint>
+        <constraint desc="" exp="" field="district"></constraint>
+        <constraint desc="" exp="" field="label"></constraint>
+      </constraintExpressions>
+      <expressionfields></expressionfields>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"></defaultAction>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns></columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles></rowstyles>
+        <fieldstyles></fieldstyles>
+      </conditionalstyles>
+      <storedexpressions></storedexpressions>
+      <editform tolerant="1"></editform>
+      <editforminit></editforminit>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable></editable>
+      <labelOnTop></labelOnTop>
+      <widgets></widgets>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="districts_60d221cc_4c94_475b_9cb8_99a2c3cb9b34"></layer>
+    <layer id="districts_c042a8be_3cc6_42ac_bd6e_827b55205962"></layer>
+    <layer id="districts_754ceda3_1bc5_473a_860d_56f6c27a74ab"></layer>
+    <layer id="districts_45d296de_4d89_411e_a954_341b3d1b4903"></layer>
+    <layer id="sens_102_9756599d_dfab_46b7_b57b_15594f3bfb3f"></layer>
+    <layer id="reps_102_469b425b_46f9_4dab_a161_3dba6d5fec51"></layer>
+    <layer id="reps_103_11d08ac0_e21a_4cc0_a5be_ecf253681839"></layer>
+    <layer id="sens_103_77f7ca8d_5489_46c2_9cfb_ba07e5f1ec9b"></layer>
+  </layerorder>
+  <properties>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <visibility-presets></visibility-presets>
+  <transformContext></transformContext>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links></links>
+    <author></author>
+    <creation>2022-07-29T20:50:44</creation>
+  </projectMetadata>
+  <Annotations></Annotations>
+  <Layouts></Layouts>
+  <Bookmarks></Bookmarks>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales></Scales>
+  </ProjectViewSettings>
+</qgis>

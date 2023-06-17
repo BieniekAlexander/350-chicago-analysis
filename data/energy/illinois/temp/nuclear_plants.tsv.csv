@@ -1,0 +1,7 @@
+name,location,coordinates,nameplateCapacity,generatingUnits,2016NetGeneration,reactorType,owner,licenseStart,licenseExpiration,yCoordinate,xCoordinate
+"Braidwood Nuclear Generating Station","Braidwood, Will County","41.244°N 88.229°W",2389,2,19849269,"Pressurized water","Constellation Energy",1987,2046,41.244,-88.229
+"Byron Nuclear Generating Station","Ogle County","42.074°N 89.282°W",2347,2,19600248,"Pressurized water","Constellation Energy",1985,2044,42.074,-89.282
+"Clinton Nuclear Generating Station","Clinton, De Witt County","40.172°N 88.835°W",1069,1,8914453,"Boiling water","Constellation Energy",1987,2026,40.172,-88.835
+"Dresden Generating Station","Morris, Grundy County","41.389°N 88.269°W",1845,2,15443893,"Boiling water","Constellation Energy",1969,2029,41.389,-88.269
+"LaSalle County Nuclear Generating Station","LaSalle County","41.245°N 88.669°W",2320,2,19144080,"Boiling water","Constellation Energy",1982,2042,41.245,-88.669
+"Quad Cities Nuclear Generating Station",Cordova,"41.726°N 90.310°W",1871,2,15655095,"Boiling water","Constellation Energy",1972,2032,41.726,-90.31

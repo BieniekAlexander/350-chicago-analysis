@@ -1,0 +1,21 @@
+plant,location,coordinates,nameplateCapacity,generatingUnits,2016NetGeneration,2016GHGEmissions,operator,opened,yCoordinate,xCoordinate
+"Cordova Energy Gas Plant",Cordova,"41.713°N 90.280°W",690,"1   (2x1 Combined Cycle)",45910,,"Cordova Energy Co LLC",2001,41.713,-90.28
+"Elgin Energy Center",Elgin,"42.000°N 88.244°W",540,"4 (Simple Cycle)",231282,,"Rockland Capital",2002,42,-88.244
+"Elwood Energy Center",Elwood,"41.4388°N 88.1236°W",1350,"9 (Simple Cycle)",,,"J-Power (EPDC)",1999,41.4388,-88.1236
+"Gibson City Power Plant","Gibson City","40.470°N 88.398°W",228,"2 \(Simple Cycle)",113401,75005,"Rockland Capital",2000,40.47,-88.398
+"Grand Tower Power Station","Grand Tower, Jackson County","37.658°N 89.511°W",523,"2 \(1x1 Combined Cycle)",413769,195267,"Rockland Capital",1950's,37.658,-89.511
+"Goose Creek Energy Center","Piatt County","40.106°N 88.599°W",432,"6 \(Simple Cycle)",27657,19977,"Ameren Illinois",2003,40.106,-88.599
+"Holland Energy","Beecher City","39.224°N 88.760°W",630,"1 \(2x1 Combined Cycle)",,567913,"Hoosier Energy and Wabash Valley",2002,39.224,-88.76
+"Joliet Station",Joliet,"41.495°N 88.124°W",1326,"3 \(Steam Turbine)",652682,1453899,"NRG Energy",1955,41.495,-88.124
+"Kendall County Generation Facility",Minooka,"41.480°N 88.256°W",1256,"4 \(1x1 Combined Cycle)",6605374,2938985,Dynegy,2002,41.48,-88.256
+"Lee Energy Facility",Dixon,"41.8287°N 89.4054°W",667,"8 \(Simple Cycle)",,,"Duke Energy",2001,41.8287,-89.4054
+"Lincoln Generating Facility",Manhattan,"41.3933°N 87.9436°W",624,"8 \(Simple Cycle)",,,Tenaska,2000,41.3933,-87.9436
+"Morris Cogeneration","Grundy County","41.4119°N 88.3328°W",212,"1 \(3x1 Combined Cycle)",,,"Morris Cogen LLC",2000,41.4119,-88.3328
+"NRG Rockford Energy Center",Rockford,"42.2384°N 89.1011°W",466,"3 \(Simple Cycle)",,,"NRG Energy",2000,42.2384,-89.1011
+"Nelson Energy Center",Nelson,"41.7744°N 89.6072°W",627,"2 \(1x1 Combined Cycle)",,,Invenergy,2015,41.7744,-89.6072
+"Rocky Road","East Dundee","42.093°N 88.239°W",364,"4 \(Simple Cycle)",75128,,Dynegy,1999,42.093,-88.239
+"Southeast Chicago Energy Project",Chicago,"41.718°N 87.547°W",352,"8 \(Simple Cycle)",39778,31070,Exelon,2002,41.718,-87.547
+"University Park North","University Park","41.4425°N 87.7514°W",540,"12 \(Simple Cycle)",,,"LS Power",2002,41.4425,-87.7514
+"University Park South","University Park","41.4409°N 87.7532°W",250,"5 \(Simple Cycle)",,,"University Park Energy LLC",2001,41.4409,-87.7532
+Venice,Venice,"38.6642°N 90.1764°W",487,"4 \(Simple Cycle)",,,"Union Electric Company",2002,38.6642,-90.1764
+"Zion Energy Center",Zion,"42.4776°N 87.8950°W",456,"3 \(Simple Cycle)",,,Calpine,2002,42.4776,-87.895

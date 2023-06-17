@@ -4,3 +4,6 @@
 
 # jupyter things
 .ipynb_checkpoints
+
+# environment variables
+.env

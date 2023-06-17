@@ -1,0 +1,10 @@
+plant,location,coordinates,nameplateCapacity,GeneratingUnits,2016NetGeneration,operator,opened,yCoordinate,xCoordinate
+"Dayton Hydro",Dayton,"41.3878°N 88.7897°W",3.6,3,,"Midwest Hydro",1925,41.3878,-88.7897
+"Dixon Hydroelectric",Dixon,"41.8453°N 89.4813°W",3,5,,"STS Hydropower",1925,41.8453,-89.4813
+"Kankakee Hydro",Kankakee,"41.1128°N 87.8681°W",1.2,3,,"City of Kankakee",1991,41.1128,-87.8681
+"Lockport Powerhouse",Lockport,"41.5697°N 88.0789°W",16,2,,"Chicago Metro Water Reclamation District",1999/2001,41.5697,-88.0789
+Moline,Moline,"41.5100°N 90.5340°W",3.2,4,,"MidAmerican Energy",1942,41.51,-90.534
+Peru,Peru,"41.3237°N 89.1123°W",6.8,4,,"City of Peru",1996,41.3237,-89.1123
+Rockton,Rockton,"42.4511°N 89.0756°W",1.2,2,,"Midwest Hydro",1929,42.4511,-89.0756
+"Sears Hydro","Rock Island","41.4614°N 90.5803°W",1.4,4,,"City of Rock Island",1985/2010,41.4614,-90.5803
+"Upper Sterling","Rock Falls","41.7871°N 89.6775°W",2,2,,"City of Rock Falls",1988,41.7871,-89.6775
